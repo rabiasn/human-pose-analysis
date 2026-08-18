@@ -1,0 +1,22 @@
+# Sanal ortamlar
+.venv_mediapipe/
+.venv_mmpose/
+.venv/
+
+# Büyük model dosyaları
+models/
+*.pth
+*.task
+*.caffemodel
+*.onnx
+
+# Harici kütüphaneler
+external/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
