@@ -26,3 +26,5 @@ videos/input/
 outputs/keypoints/
 outputs/mediapipe_video/
 outputs/openpose_video/
+
+outputs/mmpose_video/
