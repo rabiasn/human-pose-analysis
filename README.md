@@ -111,12 +111,18 @@ kullanılmıştır.
 
 ## Video İşleme
 
-MediaPipe ve OpenPose video işlemleri tek script üzerinden çalıştırılabilir.
+MediaPipe ve OpenPose tek script üzerinden, MMPose ise ayrı video pipeline üzerinden çalıştırılabilir.
 
 Örnek kullanım:
 
 ```bash
 ./scripts/process_video.sh videos/input/walking_test.mp4 -1x256
+```
+
+MMPose için:
+
+```bash
+./scripts/mmpose_video.sh videos/input/walking_test.mp4
 ```
 
 İşlem sırasında:
@@ -128,10 +134,16 @@ Video
  │    ├── Pose video
  │    └── Landmark CSV
  │
- └── OpenPose
-      ├── Pose video
-      ├── Frame JSON dosyaları
-      └── Temporal düzeltme CSV
+ ├── OpenPose
+ │    ├── Pose video
+ │    ├── Frame JSON dosyaları
+ │    └── Temporal düzeltme CSV
+ │
+ └── MMPose
+      ├── 2D pose video
+      ├── 2D keypoint CSV
+      ├── 3D pose video ve JSON
+      └── 3D keypoint CSV
 ```
 
 oluşturulmaktadır.
