@@ -28,3 +28,11 @@ outputs/mediapipe_video/
 outputs/openpose_video/
 
 outputs/mmpose_video/
+
+# Ek sanal ortam
+.venv_fidip/
+
+# DeeperCut ara çıktıları
+outputs/deepercut/
+outputs/deepercut_multicut/
+outputs/deepercut_single/
