@@ -1,0 +1,129 @@
+{
+  "input_directory": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images",
+  "samples": [
+    {
+      "image_id": "image_000001",
+      "relative_path": "image_01.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_01.png",
+      "source_sha256": "84a9c83aa59b87b1baa0a8ec93a9c7415409ac084116a115be3137d35af77671",
+      "staged_filename": "image_000001.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "84a9c83aa59b87b1baa0a8ec93a9c7415409ac084116a115be3137d35af77671"
+    },
+    {
+      "image_id": "image_000002",
+      "relative_path": "image_02.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_02.png",
+      "source_sha256": "c7ffba32a7e4e83cba36b19e7318959f4d395f0b801399b493417f87c4ead8e0",
+      "staged_filename": "image_000002.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "c7ffba32a7e4e83cba36b19e7318959f4d395f0b801399b493417f87c4ead8e0"
+    },
+    {
+      "image_id": "image_000003",
+      "relative_path": "image_03.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_03.png",
+      "source_sha256": "5a4e19d430a1d08f8a6d1ee79ea9a2e27fe12240ca6b23a7cc5dd4853de70fdf",
+      "staged_filename": "image_000003.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "5a4e19d430a1d08f8a6d1ee79ea9a2e27fe12240ca6b23a7cc5dd4853de70fdf"
+    },
+    {
+      "image_id": "image_000004",
+      "relative_path": "image_04.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_04.png",
+      "source_sha256": "68665cdb50266f45a7f1c5ac812e6c360a6a90fba777d53343e386e96882f912",
+      "staged_filename": "image_000004.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "68665cdb50266f45a7f1c5ac812e6c360a6a90fba777d53343e386e96882f912"
+    },
+    {
+      "image_id": "image_000005",
+      "relative_path": "image_05.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_05.png",
+      "source_sha256": "5367ca3c939d57c04f01ac1f36c51d230f0b3f29f0f22bf6104b5d224fa33ce6",
+      "staged_filename": "image_000005.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "5367ca3c939d57c04f01ac1f36c51d230f0b3f29f0f22bf6104b5d224fa33ce6"
+    },
+    {
+      "image_id": "image_000006",
+      "relative_path": "image_06.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_06.png",
+      "source_sha256": "000b2f58f361167818f5d75907e5faab46181f98a2e1443a62b3489526456cb0",
+      "staged_filename": "image_000006.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "000b2f58f361167818f5d75907e5faab46181f98a2e1443a62b3489526456cb0"
+    },
+    {
+      "image_id": "image_000007",
+      "relative_path": "image_07.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_07.png",
+      "source_sha256": "d898e2e705af2b6d9908407c2f10ac28afc37d50f739f9f5dcea660b7f1c28dc",
+      "staged_filename": "image_000007.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "d898e2e705af2b6d9908407c2f10ac28afc37d50f739f9f5dcea660b7f1c28dc"
+    },
+    {
+      "image_id": "image_000008",
+      "relative_path": "image_08.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_08.png",
+      "source_sha256": "b20db05ff748573a21c018ab20f27a5f42d003713c632b34774b46ce34a1f502",
+      "staged_filename": "image_000008.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "b20db05ff748573a21c018ab20f27a5f42d003713c632b34774b46ce34a1f502"
+    },
+    {
+      "image_id": "image_000009",
+      "relative_path": "image_09.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_09.png",
+      "source_sha256": "296467aedfaeb52655c3cf1a1c3d71463ae91a69f68f2b846c001944ec2120b4",
+      "staged_filename": "image_000009.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "296467aedfaeb52655c3cf1a1c3d71463ae91a69f68f2b846c001944ec2120b4"
+    },
+    {
+      "image_id": "image_000010",
+      "relative_path": "image_10.png",
+      "source_path": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/posture_still_images/pilot_v1/images/image_10.png",
+      "source_sha256": "4fcffdf6659a819a13720409541418137810f9c0e5347614ec54fe931f54d3c3",
+      "staged_filename": "image_000010.png",
+      "width": 576,
+      "height": 1024,
+      "input_status": "READY",
+      "error": null,
+      "staged_sha256": "4fcffdf6659a819a13720409541418137810f9c0e5347614ec54fe931f54d3c3"
+    }
+  ],
+  "image_decode": "OpenCV IMREAD_COLOR; JPEG EXIF orientation applied by decoder. No crop/rescale. Every model sees the same lossless PNG pixels. Geometry uses that decoded image width/height.",
+  "image_count": 10,
+  "labels_used": false,
+  "manual_points": false
+}

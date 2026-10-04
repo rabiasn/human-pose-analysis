@@ -1,0 +1,824 @@
+{
+  "feature_count": 33,
+  "angles": 12,
+  "ratios": 21,
+  "features": [
+    {
+      "name": "elbow_left_deg",
+      "description_tr": "Sol dirsek",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        11,
+        13,
+        15
+      ],
+      "vertex_id": 13,
+      "quality_dependencies": [
+        11,
+        13,
+        15
+      ]
+    },
+    {
+      "name": "elbow_right_deg",
+      "description_tr": "Sağ dirsek",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        12,
+        14,
+        16
+      ],
+      "vertex_id": 14,
+      "quality_dependencies": [
+        12,
+        14,
+        16
+      ]
+    },
+    {
+      "name": "shoulder_left_deg",
+      "description_tr": "Sol omuz: üst kol ile gövde yanı",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        13,
+        11,
+        23
+      ],
+      "vertex_id": 11,
+      "quality_dependencies": [
+        11,
+        13,
+        23
+      ]
+    },
+    {
+      "name": "shoulder_right_deg",
+      "description_tr": "Sağ omuz: üst kol ile gövde yanı",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        14,
+        12,
+        24
+      ],
+      "vertex_id": 12,
+      "quality_dependencies": [
+        12,
+        14,
+        24
+      ]
+    },
+    {
+      "name": "hip_left_deg",
+      "description_tr": "Sol kalça: gövde yanı ile uyluk",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        11,
+        23,
+        25
+      ],
+      "vertex_id": 23,
+      "quality_dependencies": [
+        11,
+        23,
+        25
+      ]
+    },
+    {
+      "name": "hip_right_deg",
+      "description_tr": "Sağ kalça: gövde yanı ile uyluk",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        12,
+        24,
+        26
+      ],
+      "vertex_id": 24,
+      "quality_dependencies": [
+        12,
+        24,
+        26
+      ]
+    },
+    {
+      "name": "knee_left_deg",
+      "description_tr": "Sol diz",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        23,
+        25,
+        27
+      ],
+      "vertex_id": 25,
+      "quality_dependencies": [
+        23,
+        25,
+        27
+      ]
+    },
+    {
+      "name": "knee_right_deg",
+      "description_tr": "Sağ diz",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        24,
+        26,
+        28
+      ],
+      "vertex_id": 26,
+      "quality_dependencies": [
+        24,
+        26,
+        28
+      ]
+    },
+    {
+      "name": "trunk_shoulder_left_deg",
+      "description_tr": "Gövde dörtgeninin sol üst köşesi",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        12,
+        11,
+        23
+      ],
+      "vertex_id": 11,
+      "quality_dependencies": [
+        11,
+        12,
+        23
+      ]
+    },
+    {
+      "name": "trunk_shoulder_right_deg",
+      "description_tr": "Gövde dörtgeninin sağ üst köşesi",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        11,
+        12,
+        24
+      ],
+      "vertex_id": 12,
+      "quality_dependencies": [
+        11,
+        12,
+        24
+      ]
+    },
+    {
+      "name": "trunk_hip_left_deg",
+      "description_tr": "Gövde dörtgeninin sol alt köşesi",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        11,
+        23,
+        24
+      ],
+      "vertex_id": 23,
+      "quality_dependencies": [
+        11,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "trunk_hip_right_deg",
+      "description_tr": "Gövde dörtgeninin sağ alt köşesi",
+      "kind": "angle",
+      "unit": "degree",
+      "point_ids": [
+        12,
+        24,
+        23
+      ],
+      "vertex_id": 24,
+      "quality_dependencies": [
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "shoulder_width_ratio",
+      "description_tr": "Omuzlar arası mesafe",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        11,
+        12
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "hip_width_ratio",
+      "description_tr": "Kalçalar arası mesafe",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        23,
+        24
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "trunk_side_left_ratio",
+      "description_tr": "Sol omuz–kalça mesafesi",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        11,
+        23
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "trunk_side_right_ratio",
+      "description_tr": "Sağ omuz–kalça mesafesi",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        12,
+        24
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "trunk_diagonal_left_right_ratio",
+      "description_tr": "Sol omuz–sağ kalça köşegeni",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        11,
+        24
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "trunk_diagonal_right_left_ratio",
+      "description_tr": "Sağ omuz–sol kalça köşegeni",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        12,
+        23
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "upper_arm_left_ratio",
+      "description_tr": "Sol üst kol",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        11,
+        13
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        13,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "upper_arm_right_ratio",
+      "description_tr": "Sağ üst kol",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        12,
+        14
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        14,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "forearm_left_ratio",
+      "description_tr": "Sol ön kol",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        13,
+        15
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        13,
+        15,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "forearm_right_ratio",
+      "description_tr": "Sağ ön kol",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        14,
+        16
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        14,
+        16,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "thigh_left_ratio",
+      "description_tr": "Sol uyluk",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        23,
+        25
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "name": "thigh_right_ratio",
+      "description_tr": "Sağ uyluk",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        24,
+        26
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        26
+      ]
+    },
+    {
+      "name": "lower_leg_left_ratio",
+      "description_tr": "Sol alt bacak",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        25,
+        27
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "name": "lower_leg_right_ratio",
+      "description_tr": "Sağ alt bacak",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        26,
+        28
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        26,
+        28
+      ]
+    },
+    {
+      "name": "wrist_separation_ratio",
+      "description_tr": "El bilekleri arası mesafe",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        15,
+        16
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        15,
+        16,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "knee_separation_ratio",
+      "description_tr": "Dizler arası mesafe",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        25,
+        26
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "name": "ankle_separation_ratio",
+      "description_tr": "Ayak bilekleri arası mesafe",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        27,
+        28
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        27,
+        28
+      ]
+    },
+    {
+      "name": "shoulder_wrist_left_span_ratio",
+      "description_tr": "Sol omuz–el bileği düz mesafesi; kol boyunca toplam uzunluk değil",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        11,
+        15
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        15,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "shoulder_wrist_right_span_ratio",
+      "description_tr": "Sağ omuz–el bileği düz mesafesi; kol boyunca toplam uzunluk değil",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        12,
+        16
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        16,
+        23,
+        24
+      ]
+    },
+    {
+      "name": "hip_ankle_left_span_ratio",
+      "description_tr": "Sol kalça–ayak bileği düz mesafesi; bacak boyunca toplam uzunluk değil",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        23,
+        27
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        27
+      ]
+    },
+    {
+      "name": "hip_ankle_right_span_ratio",
+      "description_tr": "Sağ kalça–ayak bileği düz mesafesi; bacak boyunca toplam uzunluk değil",
+      "kind": "distance_ratio",
+      "unit": "dimensionless",
+      "point_ids": [
+        24,
+        28
+      ],
+      "vertex_id": null,
+      "quality_dependencies": [
+        11,
+        12,
+        23,
+        24,
+        28
+      ]
+    }
+  ],
+  "joint_names": {
+    "11": "left_shoulder",
+    "12": "right_shoulder",
+    "13": "left_elbow",
+    "14": "right_elbow",
+    "15": "left_wrist",
+    "16": "right_wrist",
+    "23": "left_hip",
+    "24": "right_hip",
+    "25": "left_knee",
+    "26": "right_knee",
+    "27": "left_ankle",
+    "28": "right_ankle"
+  },
+  "coordinates": "x_px = x * image_width_px; y_px = y * image_height_px; z unused",
+  "angle_formula": "acos((AB^2 + BC^2 - AC^2) / (2*AB*BC)) * 180/pi; vertex B",
+  "ratio_formula": "Euclidean distance of the numerator pair / torso_length_px",
+  "denominator": "distance((left_shoulder + right_shoulder)/2, (left_hip + right_hip)/2)",
+  "numerator_distances": "Straight-line 2D endpoint distances, not 3D bone lengths or curved paths",
+  "missing_policy": "Undefined measurements are null in JSON and empty cells in CSV; zero is never imputed. Finite suspect measurements remain with separate flags.",
+  "automatic_quality": "Checks missing/nonfinite x,y, visibility < 0.5, unavailable visibility, out-of-image points and numerical degeneracy. NO_FLAG is not proof of correct landmarks.",
+  "observer_quality": "Visual review flags from the existing review file, separately propagated through feature dependencies. They never change coordinates or values. NOT_FLAGGED is not proof of correctness.",
+  "visibility_review_level": 0.5,
+  "numerical_zero_px": 1e-09,
+  "invariance": "Translation, uniform image scaling and image-plane rotation; not arbitrary camera viewpoint",
+  "selection_rationale": "An initial interpretable inventory: 8 limb angles, 4 trunk corners, 21 segment/width/diagonal/endpoint ratios. No claim of optimal posture discrimination.",
+  "reference_posture": "Existing manual selection label, not a classifier output; exclude metadata and quality fields from any future numeric feature matrix",
+  "quality_column_prefixes": {
+    "automatic": "auto_qc__",
+    "observer": "observer_qc__"
+  },
+  "native_maps": {
+    "mediapipe": {
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28
+    },
+    "openpose": {
+      "11": 5,
+      "12": 2,
+      "13": 6,
+      "14": 3,
+      "15": 7,
+      "16": 4,
+      "23": 12,
+      "24": 9,
+      "25": 13,
+      "26": 10,
+      "27": 14,
+      "28": 11
+    },
+    "mmpose": {
+      "11": 5,
+      "12": 6,
+      "13": 7,
+      "14": 8,
+      "15": 9,
+      "16": 10,
+      "23": 11,
+      "24": 12,
+      "25": 13,
+      "26": 14,
+      "27": 15,
+      "28": 16
+    },
+    "deepercut": {
+      "11": 5,
+      "12": 6,
+      "13": 7,
+      "14": 8,
+      "15": 9,
+      "16": 10,
+      "23": 11,
+      "24": 12,
+      "25": 13,
+      "26": 14,
+      "27": 15,
+      "28": 16
+    }
+  },
+  "feature_families": {
+    "xy": [
+      "left_shoulder_x_px",
+      "left_shoulder_y_px",
+      "right_shoulder_x_px",
+      "right_shoulder_y_px",
+      "left_elbow_x_px",
+      "left_elbow_y_px",
+      "right_elbow_x_px",
+      "right_elbow_y_px",
+      "left_wrist_x_px",
+      "left_wrist_y_px",
+      "right_wrist_x_px",
+      "right_wrist_y_px",
+      "left_hip_x_px",
+      "left_hip_y_px",
+      "right_hip_x_px",
+      "right_hip_y_px",
+      "left_knee_x_px",
+      "left_knee_y_px",
+      "right_knee_x_px",
+      "right_knee_y_px",
+      "left_ankle_x_px",
+      "left_ankle_y_px",
+      "right_ankle_x_px",
+      "right_ankle_y_px"
+    ],
+    "angles": [
+      "elbow_left_deg",
+      "elbow_right_deg",
+      "shoulder_left_deg",
+      "shoulder_right_deg",
+      "hip_left_deg",
+      "hip_right_deg",
+      "knee_left_deg",
+      "knee_right_deg",
+      "trunk_shoulder_left_deg",
+      "trunk_shoulder_right_deg",
+      "trunk_hip_left_deg",
+      "trunk_hip_right_deg"
+    ],
+    "ratios": [
+      "shoulder_width_ratio",
+      "hip_width_ratio",
+      "trunk_side_left_ratio",
+      "trunk_side_right_ratio",
+      "trunk_diagonal_left_right_ratio",
+      "trunk_diagonal_right_left_ratio",
+      "upper_arm_left_ratio",
+      "upper_arm_right_ratio",
+      "forearm_left_ratio",
+      "forearm_right_ratio",
+      "thigh_left_ratio",
+      "thigh_right_ratio",
+      "lower_leg_left_ratio",
+      "lower_leg_right_ratio",
+      "wrist_separation_ratio",
+      "knee_separation_ratio",
+      "ankle_separation_ratio",
+      "shoulder_wrist_left_span_ratio",
+      "shoulder_wrist_right_span_ratio",
+      "hip_ankle_left_span_ratio",
+      "hip_ankle_right_span_ratio"
+    ]
+  },
+  "combined_feature_columns": [
+    "left_shoulder_x_px",
+    "left_shoulder_y_px",
+    "right_shoulder_x_px",
+    "right_shoulder_y_px",
+    "left_elbow_x_px",
+    "left_elbow_y_px",
+    "right_elbow_x_px",
+    "right_elbow_y_px",
+    "left_wrist_x_px",
+    "left_wrist_y_px",
+    "right_wrist_x_px",
+    "right_wrist_y_px",
+    "left_hip_x_px",
+    "left_hip_y_px",
+    "right_hip_x_px",
+    "right_hip_y_px",
+    "left_knee_x_px",
+    "left_knee_y_px",
+    "right_knee_x_px",
+    "right_knee_y_px",
+    "left_ankle_x_px",
+    "left_ankle_y_px",
+    "right_ankle_x_px",
+    "right_ankle_y_px",
+    "elbow_left_deg",
+    "elbow_right_deg",
+    "shoulder_left_deg",
+    "shoulder_right_deg",
+    "hip_left_deg",
+    "hip_right_deg",
+    "knee_left_deg",
+    "knee_right_deg",
+    "trunk_shoulder_left_deg",
+    "trunk_shoulder_right_deg",
+    "trunk_hip_left_deg",
+    "trunk_hip_right_deg",
+    "shoulder_width_ratio",
+    "hip_width_ratio",
+    "trunk_side_left_ratio",
+    "trunk_side_right_ratio",
+    "trunk_diagonal_left_right_ratio",
+    "trunk_diagonal_right_left_ratio",
+    "upper_arm_left_ratio",
+    "upper_arm_right_ratio",
+    "forearm_left_ratio",
+    "forearm_right_ratio",
+    "thigh_left_ratio",
+    "thigh_right_ratio",
+    "lower_leg_left_ratio",
+    "lower_leg_right_ratio",
+    "wrist_separation_ratio",
+    "knee_separation_ratio",
+    "ankle_separation_ratio",
+    "shoulder_wrist_left_span_ratio",
+    "shoulder_wrist_right_span_ratio",
+    "hip_ankle_left_span_ratio",
+    "hip_ankle_right_span_ratio"
+  ],
+  "metadata_columns": [
+    "image_id",
+    "source_file",
+    "library",
+    "image_width_px",
+    "image_height_px",
+    "detection_status",
+    "native_candidate_count",
+    "selected_native_index",
+    "torso_length_px",
+    "visual_review"
+  ],
+  "xy_coordinate_unit": "Decoded input image pixels. No resizing before measurements.",
+  "quality_policy": "QC columns never change finite measurements. Blank = missing/nonfinite/undefined, never filled with zero. NO_FLAG is not visual verification; visual_review stays NOT_REVIEWED.",
+  "score_policy": "MP visibility, BODY25 confidence, RTMPose scores, and mean assigned DeeperCut unary scores are different quantities. Native RTMPose values above 1 are retained. DeeperCut has no added score cutoff.",
+  "label_policy": "No posture/head labels read, inferred or predicted. No label enters features. No manual coordinate corrections.",
+  "library_score_review_levels": {
+    "mediapipe": 0.5,
+    "openpose": 0.3,
+    "mmpose": 0.3
+  }
+}

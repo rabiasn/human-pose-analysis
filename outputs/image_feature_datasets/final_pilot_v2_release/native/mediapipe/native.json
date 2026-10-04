@@ -1,0 +1,3069 @@
+{
+  "library": "mediapipe",
+  "coordinate_unit": "decoded input-image pixels",
+  "z_used": false,
+  "manual_coordinate_corrections": false,
+  "training": false,
+  "samples": [
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 344.0760040283203,
+          "y_px": 302.10369873046875,
+          "score": 0.9999964237213135,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999942421913147
+        },
+        {
+          "native_id": 1,
+          "x_px": 332.39410400390625,
+          "y_px": 283.8416748046875,
+          "score": 0.9999901056289673,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997972846031189
+        },
+        {
+          "native_id": 2,
+          "x_px": 333.6414985656738,
+          "y_px": 283.6968688964844,
+          "score": 0.9999892711639404,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998083710670471
+        },
+        {
+          "native_id": 3,
+          "x_px": 334.9325981140137,
+          "y_px": 283.4601135253906,
+          "score": 0.9999896287918091,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999806821346283
+        },
+        {
+          "native_id": 4,
+          "x_px": 322.5588684082031,
+          "y_px": 284.3329772949219,
+          "score": 0.999987006187439,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997270703315735
+        },
+        {
+          "native_id": 5,
+          "x_px": 313.458309173584,
+          "y_px": 284.2369079589844,
+          "score": 0.9999823570251465,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996581077575684
+        },
+        {
+          "native_id": 6,
+          "x_px": 301.606258392334,
+          "y_px": 284.0268859863281,
+          "score": 0.9999804496765137,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995487332344055
+        },
+        {
+          "native_id": 7,
+          "x_px": 308.659481048584,
+          "y_px": 299.2558288574219,
+          "score": 0.999982476234436,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998573064804077
+        },
+        {
+          "native_id": 8,
+          "x_px": 257.98267364501953,
+          "y_px": 295.593994140625,
+          "score": 0.9999818801879883,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9994291663169861
+        },
+        {
+          "native_id": 9,
+          "x_px": 347.28462982177734,
+          "y_px": 327.89764404296875,
+          "score": 0.9999867677688599,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999260902404785
+        },
+        {
+          "native_id": 10,
+          "x_px": 326.9363708496094,
+          "y_px": 326.3721923828125,
+          "score": 0.999982476234436,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998683929443359
+        },
+        {
+          "native_id": 11,
+          "x_px": 336.7638130187988,
+          "y_px": 414.7174072265625,
+          "score": 0.9999877214431763,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999790191650391
+        },
+        {
+          "native_id": 12,
+          "x_px": 182.85040283203125,
+          "y_px": 399.8471984863281,
+          "score": 0.9999395608901978,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999745786190033
+        },
+        {
+          "native_id": 13,
+          "x_px": 374.7227783203125,
+          "y_px": 496.25872802734375,
+          "score": 0.9568281173706055,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999136924743652
+        },
+        {
+          "native_id": 14,
+          "x_px": 138.93224716186523,
+          "y_px": 484.969482421875,
+          "score": 0.9741190671920776,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9994528889656067
+        },
+        {
+          "native_id": 15,
+          "x_px": 428.0536766052246,
+          "y_px": 562.6182250976562,
+          "score": 0.9820718169212341,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999039173126221
+        },
+        {
+          "native_id": 16,
+          "x_px": 124.4033432006836,
+          "y_px": 553.9478759765625,
+          "score": 0.970461368560791,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9984797835350037
+        },
+        {
+          "native_id": 17,
+          "x_px": 447.6888542175293,
+          "y_px": 590.8329467773438,
+          "score": 0.9723529815673828,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995701909065247
+        },
+        {
+          "native_id": 18,
+          "x_px": 122.46137237548828,
+          "y_px": 578.99169921875,
+          "score": 0.9537226557731628,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9965201616287231
+        },
+        {
+          "native_id": 19,
+          "x_px": 441.3014373779297,
+          "y_px": 590.31494140625,
+          "score": 0.9739935398101807,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997361302375793
+        },
+        {
+          "native_id": 20,
+          "x_px": 136.2433261871338,
+          "y_px": 575.9164428710938,
+          "score": 0.9542155265808105,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975563287734985
+        },
+        {
+          "native_id": 21,
+          "x_px": 432.46856689453125,
+          "y_px": 581.83984375,
+          "score": 0.970646321773529,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998688697814941
+        },
+        {
+          "native_id": 22,
+          "x_px": 140.92339897155762,
+          "y_px": 568.0318603515625,
+          "score": 0.947083055973053,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9984257221221924
+        },
+        {
+          "native_id": 23,
+          "x_px": 303.39163970947266,
+          "y_px": 637.120849609375,
+          "score": 0.9998366832733154,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999476671218872
+        },
+        {
+          "native_id": 24,
+          "x_px": 197.7484645843506,
+          "y_px": 637.3995361328125,
+          "score": 0.9999207258224487,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999957799911499
+        },
+        {
+          "native_id": 25,
+          "x_px": 391.0957717895508,
+          "y_px": 737.1586303710938,
+          "score": 0.9961923360824585,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998651742935181
+        },
+        {
+          "native_id": 26,
+          "x_px": 101.4737606048584,
+          "y_px": 748.0776977539062,
+          "score": 0.9986866116523743,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998182654380798
+        },
+        {
+          "native_id": 27,
+          "x_px": 417.9242477416992,
+          "y_px": 855.238037109375,
+          "score": 0.9934145212173462,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9989075660705566
+        },
+        {
+          "native_id": 28,
+          "x_px": 173.83684158325195,
+          "y_px": 846.7935791015625,
+          "score": 0.9956931471824646,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998373985290527
+        },
+        {
+          "native_id": 29,
+          "x_px": 404.76399993896484,
+          "y_px": 876.3544311523438,
+          "score": 0.9605470299720764,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9985670447349548
+        },
+        {
+          "native_id": 30,
+          "x_px": 200.26841926574707,
+          "y_px": 855.751708984375,
+          "score": 0.9624921679496765,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997166991233826
+        },
+        {
+          "native_id": 31,
+          "x_px": 483.1208953857422,
+          "y_px": 888.9063720703125,
+          "score": 0.9835320711135864,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9888476133346558
+        },
+        {
+          "native_id": 32,
+          "x_px": 146.6824836730957,
+          "y_px": 926.261962890625,
+          "score": 0.9878907203674316,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.995735764503479
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000001",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 219.5287742614746,
+          "y_px": 308.1674499511719,
+          "score": 0.9999992847442627,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999997615814209
+        },
+        {
+          "native_id": 1,
+          "x_px": 241.07574462890625,
+          "y_px": 286.24951171875,
+          "score": 0.9999995231628418,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999985694885254
+        },
+        {
+          "native_id": 2,
+          "x_px": 253.52732276916504,
+          "y_px": 284.67462158203125,
+          "score": 0.9999995231628418,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999984502792358
+        },
+        {
+          "native_id": 3,
+          "x_px": 272.8729419708252,
+          "y_px": 280.74591064453125,
+          "score": 0.9999995231628418,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999977350234985
+        },
+        {
+          "native_id": 4,
+          "x_px": 219.0549545288086,
+          "y_px": 290.797607421875,
+          "score": 0.9999994039535522,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999978542327881
+        },
+        {
+          "native_id": 5,
+          "x_px": 213.73194122314453,
+          "y_px": 292.2444763183594,
+          "score": 0.9999992847442627,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999969005584717
+        },
+        {
+          "native_id": 6,
+          "x_px": 208.86376190185547,
+          "y_px": 293.3481140136719,
+          "score": 0.9999988079071045,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999955892562866
+        },
+        {
+          "native_id": 7,
+          "x_px": 312.33996963500977,
+          "y_px": 300.50323486328125,
+          "score": 0.9999992847442627,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999972581863403
+        },
+        {
+          "native_id": 8,
+          "x_px": 224.4740810394287,
+          "y_px": 317.401123046875,
+          "score": 0.9999966621398926,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999951124191284
+        },
+        {
+          "native_id": 9,
+          "x_px": 242.3485107421875,
+          "y_px": 332.3542175292969,
+          "score": 0.9999984502792358,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999995231628418
+        },
+        {
+          "native_id": 10,
+          "x_px": 216.91680908203125,
+          "y_px": 335.7052001953125,
+          "score": 0.9999960660934448,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999990463256836
+        },
+        {
+          "native_id": 11,
+          "x_px": 376.46575927734375,
+          "y_px": 378.67962646484375,
+          "score": 0.999988317489624,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999954700469971
+        },
+        {
+          "native_id": 12,
+          "x_px": 238.21420097351074,
+          "y_px": 419.3018798828125,
+          "score": 0.9999517202377319,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999942779541016
+        },
+        {
+          "native_id": 13,
+          "x_px": 440.0899200439453,
+          "y_px": 447.51287841796875,
+          "score": 0.9717258214950562,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999256134033203
+        },
+        {
+          "native_id": 14,
+          "x_px": 227.67053604125977,
+          "y_px": 499.94598388671875,
+          "score": 0.7997633814811707,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999538660049438
+        },
+        {
+          "native_id": 15,
+          "x_px": 526.420280456543,
+          "y_px": 435.52288818359375,
+          "score": 0.9488001465797424,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.99859219789505
+        },
+        {
+          "native_id": 16,
+          "x_px": 168.00413131713867,
+          "y_px": 489.4022521972656,
+          "score": 0.9426522850990295,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997778534889221
+        },
+        {
+          "native_id": 17,
+          "x_px": 558.2920989990234,
+          "y_px": 441.0226745605469,
+          "score": 0.9283065795898438,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9932491779327393
+        },
+        {
+          "native_id": 18,
+          "x_px": 143.6454677581787,
+          "y_px": 491.41888427734375,
+          "score": 0.9259048104286194,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9990872144699097
+        },
+        {
+          "native_id": 19,
+          "x_px": 558.4056358337402,
+          "y_px": 435.6982421875,
+          "score": 0.9396730661392212,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9954100251197815
+        },
+        {
+          "native_id": 20,
+          "x_px": 147.71947288513184,
+          "y_px": 476.59222412109375,
+          "score": 0.9296489357948303,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999405026435852
+        },
+        {
+          "native_id": 21,
+          "x_px": 543.1506042480469,
+          "y_px": 434.0654296875,
+          "score": 0.9484386444091797,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9981448650360107
+        },
+        {
+          "native_id": 22,
+          "x_px": 157.83010482788086,
+          "y_px": 473.8391418457031,
+          "score": 0.932644784450531,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997738003730774
+        },
+        {
+          "native_id": 23,
+          "x_px": 378.5382614135742,
+          "y_px": 583.346923828125,
+          "score": 0.99992835521698,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998915195465088
+        },
+        {
+          "native_id": 24,
+          "x_px": 286.25262451171875,
+          "y_px": 587.0821533203125,
+          "score": 0.9998164772987366,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999172687530518
+        },
+        {
+          "native_id": 25,
+          "x_px": 348.31507873535156,
+          "y_px": 561.3087158203125,
+          "score": 0.9689010977745056,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999098777770996
+        },
+        {
+          "native_id": 26,
+          "x_px": 210.98390007019043,
+          "y_px": 549.8944091796875,
+          "score": 0.8793990015983582,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998218417167664
+        },
+        {
+          "native_id": 27,
+          "x_px": 229.1938076019287,
+          "y_px": 668.04638671875,
+          "score": 0.9691258668899536,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998181462287903
+        },
+        {
+          "native_id": 28,
+          "x_px": 214.53902435302734,
+          "y_px": 660.1810302734375,
+          "score": 0.8526242971420288,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9990768432617188
+        },
+        {
+          "native_id": 29,
+          "x_px": 218.72855758666992,
+          "y_px": 708.6412963867188,
+          "score": 0.9843387603759766,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993634819984436
+        },
+        {
+          "native_id": 30,
+          "x_px": 219.87762451171875,
+          "y_px": 696.7080078125,
+          "score": 0.9184260964393616,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9977335929870605
+        },
+        {
+          "native_id": 31,
+          "x_px": 169.77565956115723,
+          "y_px": 658.1923217773438,
+          "score": 0.9806103706359863,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9977272152900696
+        },
+        {
+          "native_id": 32,
+          "x_px": 177.27412033081055,
+          "y_px": 656.291748046875,
+          "score": 0.9382213354110718,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9931134581565857
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000002",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 238.24906539916992,
+          "y_px": 212.71182250976562,
+          "score": 0.9999759197235107,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999919056892395
+        },
+        {
+          "native_id": 1,
+          "x_px": 259.4750633239746,
+          "y_px": 204.01870727539062,
+          "score": 0.9999715089797974,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996758699417114
+        },
+        {
+          "native_id": 2,
+          "x_px": 268.331485748291,
+          "y_px": 205.64938354492188,
+          "score": 0.9999687671661377,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996685981750488
+        },
+        {
+          "native_id": 3,
+          "x_px": 275.72370529174805,
+          "y_px": 208.34072875976562,
+          "score": 0.9999712705612183,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996355772018433
+        },
+        {
+          "native_id": 4,
+          "x_px": 243.7415256500244,
+          "y_px": 202.5111083984375,
+          "score": 0.9999594688415527,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996908903121948
+        },
+        {
+          "native_id": 5,
+          "x_px": 238.1946144104004,
+          "y_px": 204.36636352539062,
+          "score": 0.9999445676803589,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996963739395142
+        },
+        {
+          "native_id": 6,
+          "x_px": 235.28921127319336,
+          "y_px": 205.34738159179688,
+          "score": 0.999948263168335,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999679684638977
+        },
+        {
+          "native_id": 7,
+          "x_px": 298.88072204589844,
+          "y_px": 235.799072265625,
+          "score": 0.9999440908432007,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996962547302246
+        },
+        {
+          "native_id": 8,
+          "x_px": 239.224702835083,
+          "y_px": 232.342529296875,
+          "score": 0.9999152421951294,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998015761375427
+        },
+        {
+          "native_id": 9,
+          "x_px": 242.57579040527344,
+          "y_px": 234.52001953125,
+          "score": 0.9999799728393555,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999595880508423
+        },
+        {
+          "native_id": 10,
+          "x_px": 227.3697509765625,
+          "y_px": 234.14398193359375,
+          "score": 0.9999774694442749,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999655485153198
+        },
+        {
+          "native_id": 11,
+          "x_px": 345.7200050354004,
+          "y_px": 324.0181579589844,
+          "score": 0.999735414981842,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998099207878113
+        },
+        {
+          "native_id": 12,
+          "x_px": 207.5203914642334,
+          "y_px": 355.44952392578125,
+          "score": 0.999909520149231,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998912811279297
+        },
+        {
+          "native_id": 13,
+          "x_px": 398.72045516967773,
+          "y_px": 385.7335510253906,
+          "score": 0.8384325504302979,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9971234202384949
+        },
+        {
+          "native_id": 14,
+          "x_px": 173.33517837524414,
+          "y_px": 437.0465393066406,
+          "score": 0.885375440120697,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9992080330848694
+        },
+        {
+          "native_id": 15,
+          "x_px": 438.643741607666,
+          "y_px": 413.32904052734375,
+          "score": 0.8939200043678284,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9927058815956116
+        },
+        {
+          "native_id": 16,
+          "x_px": 112.06204032897949,
+          "y_px": 476.884033203125,
+          "score": 0.9404103755950928,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.993179440498352
+        },
+        {
+          "native_id": 17,
+          "x_px": 456.94349670410156,
+          "y_px": 430.69073486328125,
+          "score": 0.9012532234191895,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9843783974647522
+        },
+        {
+          "native_id": 18,
+          "x_px": 85.54801368713379,
+          "y_px": 488.80889892578125,
+          "score": 0.914936900138855,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9780770540237427
+        },
+        {
+          "native_id": 19,
+          "x_px": 444.4300003051758,
+          "y_px": 423.050537109375,
+          "score": 0.9038791060447693,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9894920587539673
+        },
+        {
+          "native_id": 20,
+          "x_px": 85.92129135131836,
+          "y_px": 479.6991882324219,
+          "score": 0.9248393177986145,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9833382368087769
+        },
+        {
+          "native_id": 21,
+          "x_px": 436.26619720458984,
+          "y_px": 419.16986083984375,
+          "score": 0.8925570249557495,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9929786324501038
+        },
+        {
+          "native_id": 22,
+          "x_px": 96.20706939697266,
+          "y_px": 477.54534912109375,
+          "score": 0.9298536777496338,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9912933707237244
+        },
+        {
+          "native_id": 23,
+          "x_px": 379.84556579589844,
+          "y_px": 508.6311340332031,
+          "score": 0.9996852874755859,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9994857311248779
+        },
+        {
+          "native_id": 24,
+          "x_px": 289.4692497253418,
+          "y_px": 535.6293334960938,
+          "score": 0.9998045563697815,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996647834777832
+        },
+        {
+          "native_id": 25,
+          "x_px": 463.01134872436523,
+          "y_px": 445.1141662597656,
+          "score": 0.9507450461387634,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9973168969154358
+        },
+        {
+          "native_id": 26,
+          "x_px": 222.60707473754883,
+          "y_px": 526.7003784179688,
+          "score": 0.9697287082672119,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993013143539429
+        },
+        {
+          "native_id": 27,
+          "x_px": 474.80366134643555,
+          "y_px": 563.240234375,
+          "score": 0.9125456809997559,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9973681569099426
+        },
+        {
+          "native_id": 28,
+          "x_px": 314.00329971313477,
+          "y_px": 615.8976440429688,
+          "score": 0.969177782535553,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9990453124046326
+        },
+        {
+          "native_id": 29,
+          "x_px": 464.67028427124023,
+          "y_px": 597.153076171875,
+          "score": 0.9264340996742249,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9969232678413391
+        },
+        {
+          "native_id": 30,
+          "x_px": 333.1747856140137,
+          "y_px": 625.8482666015625,
+          "score": 0.9412399530410767,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9985554814338684
+        },
+        {
+          "native_id": 31,
+          "x_px": 536.8842430114746,
+          "y_px": 576.5311279296875,
+          "score": 0.9006277322769165,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9908910393714905
+        },
+        {
+          "native_id": 32,
+          "x_px": 325.89575958251953,
+          "y_px": 662.4351806640625,
+          "score": 0.9558583498001099,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.995439350605011
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000003",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 300.20821380615234,
+          "y_px": 219.61215209960938,
+          "score": 0.9999938011169434,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999699592590332
+        },
+        {
+          "native_id": 1,
+          "x_px": 295.9647102355957,
+          "y_px": 205.33737182617188,
+          "score": 0.9999921321868896,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998916387557983
+        },
+        {
+          "native_id": 2,
+          "x_px": 304.3578872680664,
+          "y_px": 208.38433837890625,
+          "score": 0.9999898672103882,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998774528503418
+        },
+        {
+          "native_id": 3,
+          "x_px": 307.3117332458496,
+          "y_px": 209.38516235351562,
+          "score": 0.9999910593032837,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998512268066406
+        },
+        {
+          "native_id": 4,
+          "x_px": 271.51149559020996,
+          "y_px": 202.44943237304688,
+          "score": 0.9999916553497314,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998946189880371
+        },
+        {
+          "native_id": 5,
+          "x_px": 255.1696071624756,
+          "y_px": 202.92568969726562,
+          "score": 0.9999903440475464,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998855590820312
+        },
+        {
+          "native_id": 6,
+          "x_px": 245.81047439575195,
+          "y_px": 204.75900268554688,
+          "score": 0.9999912977218628,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998618364334106
+        },
+        {
+          "native_id": 7,
+          "x_px": 296.0555191040039,
+          "y_px": 224.71621704101562,
+          "score": 0.9999879598617554,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998418092727661
+        },
+        {
+          "native_id": 8,
+          "x_px": 209.4033966064453,
+          "y_px": 230.29977416992188,
+          "score": 0.9999873638153076,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998592138290405
+        },
+        {
+          "native_id": 9,
+          "x_px": 303.79408264160156,
+          "y_px": 247.5887451171875,
+          "score": 0.999975323677063,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998708963394165
+        },
+        {
+          "native_id": 10,
+          "x_px": 255.0453586578369,
+          "y_px": 244.08868408203125,
+          "score": 0.9999744892120361,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998856782913208
+        },
+        {
+          "native_id": 11,
+          "x_px": 313.5654602050781,
+          "y_px": 325.6747131347656,
+          "score": 0.999607503414154,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9987576007843018
+        },
+        {
+          "native_id": 12,
+          "x_px": 166.89777374267578,
+          "y_px": 305.6568603515625,
+          "score": 0.9991798996925354,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9990329742431641
+        },
+        {
+          "native_id": 13,
+          "x_px": 375.8954315185547,
+          "y_px": 395.29986572265625,
+          "score": 0.9820481538772583,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975711703300476
+        },
+        {
+          "native_id": 14,
+          "x_px": 124.83665084838867,
+          "y_px": 382.02239990234375,
+          "score": 0.9808694124221802,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9972270131111145
+        },
+        {
+          "native_id": 15,
+          "x_px": 368.7882385253906,
+          "y_px": 305.4971923828125,
+          "score": 0.9884976148605347,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997486472129822
+        },
+        {
+          "native_id": 16,
+          "x_px": 139.57261276245117,
+          "y_px": 330.85443115234375,
+          "score": 0.988029420375824,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997473359107971
+        },
+        {
+          "native_id": 17,
+          "x_px": 376.79933166503906,
+          "y_px": 285.1121520996094,
+          "score": 0.9691474437713623,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995075464248657
+        },
+        {
+          "native_id": 18,
+          "x_px": 151.55766677856445,
+          "y_px": 318.20281982421875,
+          "score": 0.9681947827339172,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995869994163513
+        },
+        {
+          "native_id": 19,
+          "x_px": 362.444766998291,
+          "y_px": 278.4302673339844,
+          "score": 0.9631282091140747,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996602535247803
+        },
+        {
+          "native_id": 20,
+          "x_px": 160.73859786987305,
+          "y_px": 307.4393310546875,
+          "score": 0.962001621723175,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997120499610901
+        },
+        {
+          "native_id": 21,
+          "x_px": 355.51998138427734,
+          "y_px": 286.57647705078125,
+          "score": 0.9573960900306702,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997814297676086
+        },
+        {
+          "native_id": 22,
+          "x_px": 160.23956108093262,
+          "y_px": 312.26715087890625,
+          "score": 0.952101469039917,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998133778572083
+        },
+        {
+          "native_id": 23,
+          "x_px": 260.4467182159424,
+          "y_px": 532.435791015625,
+          "score": 0.9997908473014832,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996986389160156
+        },
+        {
+          "native_id": 24,
+          "x_px": 167.9314842224121,
+          "y_px": 520.0053100585938,
+          "score": 0.9998273253440857,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999088048934937
+        },
+        {
+          "native_id": 25,
+          "x_px": 328.30272674560547,
+          "y_px": 558.3319091796875,
+          "score": 0.9941828846931458,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997501969337463
+        },
+        {
+          "native_id": 26,
+          "x_px": 77.34826469421387,
+          "y_px": 533.402587890625,
+          "score": 0.9937703013420105,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998857975006104
+        },
+        {
+          "native_id": 27,
+          "x_px": 221.90491104125977,
+          "y_px": 635.8854370117188,
+          "score": 0.9751376509666443,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997405409812927
+        },
+        {
+          "native_id": 28,
+          "x_px": 136.23515510559082,
+          "y_px": 640.3480224609375,
+          "score": 0.9899498224258423,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998965263366699
+        },
+        {
+          "native_id": 29,
+          "x_px": 195.459566116333,
+          "y_px": 644.3983764648438,
+          "score": 0.9474278092384338,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996395111083984
+        },
+        {
+          "native_id": 30,
+          "x_px": 155.81308364868164,
+          "y_px": 657.1229248046875,
+          "score": 0.9778901934623718,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998181462287903
+        },
+        {
+          "native_id": 31,
+          "x_px": 209.3327236175537,
+          "y_px": 689.5096435546875,
+          "score": 0.9695433974266052,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9980370402336121
+        },
+        {
+          "native_id": 32,
+          "x_px": 102.70507907867432,
+          "y_px": 686.821533203125,
+          "score": 0.9851860404014587,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9982227683067322
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000004",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 229.8267059326172,
+          "y_px": 148.76702880859375,
+          "score": 0.9999902248382568,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999637603759766
+        },
+        {
+          "native_id": 1,
+          "x_px": 223.44184684753418,
+          "y_px": 131.92315673828125,
+          "score": 0.9999871253967285,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999061822891235
+        },
+        {
+          "native_id": 2,
+          "x_px": 228.14488792419434,
+          "y_px": 129.88070678710938,
+          "score": 0.9999868869781494,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999127388000488
+        },
+        {
+          "native_id": 3,
+          "x_px": 234.22477340698242,
+          "y_px": 128.47833251953125,
+          "score": 0.9999877214431763,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999041557312012
+        },
+        {
+          "native_id": 4,
+          "x_px": 206.41267776489258,
+          "y_px": 142.690673828125,
+          "score": 0.9999878406524658,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999018907546997
+        },
+        {
+          "native_id": 5,
+          "x_px": 198.8562126159668,
+          "y_px": 149.59231567382812,
+          "score": 0.99998939037323,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999028444290161
+        },
+        {
+          "native_id": 6,
+          "x_px": 192.23169708251953,
+          "y_px": 154.5032958984375,
+          "score": 0.999988317489624,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998984336853027
+        },
+        {
+          "native_id": 7,
+          "x_px": 239.06148719787598,
+          "y_px": 146.67874145507812,
+          "score": 0.9999896287918091,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999468326568604
+        },
+        {
+          "native_id": 8,
+          "x_px": 182.9245433807373,
+          "y_px": 176.302490234375,
+          "score": 0.9999934434890747,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999420642852783
+        },
+        {
+          "native_id": 9,
+          "x_px": 254.85668563842773,
+          "y_px": 167.72955322265625,
+          "score": 0.999993085861206,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999993085861206
+        },
+        {
+          "native_id": 10,
+          "x_px": 231.1512279510498,
+          "y_px": 176.61483764648438,
+          "score": 0.9999935626983643,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999902248382568
+        },
+        {
+          "native_id": 11,
+          "x_px": 312.7429962158203,
+          "y_px": 244.48251342773438,
+          "score": 0.9999604225158691,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999831914901733
+        },
+        {
+          "native_id": 12,
+          "x_px": 181.90882301330566,
+          "y_px": 249.31814575195312,
+          "score": 0.999945878982544,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999369382858276
+        },
+        {
+          "native_id": 13,
+          "x_px": 410.96612548828125,
+          "y_px": 267.5740051269531,
+          "score": 0.9863683581352234,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999104917049408
+        },
+        {
+          "native_id": 14,
+          "x_px": 130.74411964416504,
+          "y_px": 341.267578125,
+          "score": 0.9360762238502502,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9980413913726807
+        },
+        {
+          "native_id": 15,
+          "x_px": 356.0591011047363,
+          "y_px": 197.42803955078125,
+          "score": 0.9701048135757446,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998132586479187
+        },
+        {
+          "native_id": 16,
+          "x_px": 48.716176986694336,
+          "y_px": 285.0548095703125,
+          "score": 0.9320427775382996,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.99644535779953
+        },
+        {
+          "native_id": 17,
+          "x_px": 340.8234672546387,
+          "y_px": 181.45205688476562,
+          "score": 0.9127483367919922,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996579885482788
+        },
+        {
+          "native_id": 18,
+          "x_px": 20.29116439819336,
+          "y_px": 284.85113525390625,
+          "score": 0.9097010493278503,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9945693612098694
+        },
+        {
+          "native_id": 19,
+          "x_px": 328.5098876953125,
+          "y_px": 176.58187866210938,
+          "score": 0.9035008549690247,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997448325157166
+        },
+        {
+          "native_id": 20,
+          "x_px": 17.174428939819336,
+          "y_px": 272.656005859375,
+          "score": 0.9179481863975525,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9942828416824341
+        },
+        {
+          "native_id": 21,
+          "x_px": 331.10870361328125,
+          "y_px": 182.4605712890625,
+          "score": 0.8877083659172058,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998224377632141
+        },
+        {
+          "native_id": 22,
+          "x_px": 30.63156509399414,
+          "y_px": 271.31103515625,
+          "score": 0.920114278793335,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9962636828422546
+        },
+        {
+          "native_id": 23,
+          "x_px": 291.2461166381836,
+          "y_px": 501.5408630371094,
+          "score": 0.9998877048492432,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999547004699707
+        },
+        {
+          "native_id": 24,
+          "x_px": 210.64117813110352,
+          "y_px": 487.3797912597656,
+          "score": 0.9999409914016724,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999933123588562
+        },
+        {
+          "native_id": 25,
+          "x_px": 361.84700775146484,
+          "y_px": 600.1766357421875,
+          "score": 0.8369525671005249,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996324777603149
+        },
+        {
+          "native_id": 26,
+          "x_px": 276.56014251708984,
+          "y_px": 464.64532470703125,
+          "score": 0.9883707761764526,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999086856842041
+        },
+        {
+          "native_id": 27,
+          "x_px": 327.4981155395508,
+          "y_px": 739.7899780273438,
+          "score": 0.8822807669639587,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9974371194839478
+        },
+        {
+          "native_id": 28,
+          "x_px": 297.9533386230469,
+          "y_px": 654.5599975585938,
+          "score": 0.9671798348426819,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9992851614952087
+        },
+        {
+          "native_id": 29,
+          "x_px": 303.13098907470703,
+          "y_px": 764.29638671875,
+          "score": 0.891778290271759,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9966837763786316
+        },
+        {
+          "native_id": 30,
+          "x_px": 279.730281829834,
+          "y_px": 688.7685546875,
+          "score": 0.9439257979393005,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9983435869216919
+        },
+        {
+          "native_id": 31,
+          "x_px": 389.2393569946289,
+          "y_px": 792.6117553710938,
+          "score": 0.8948687314987183,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9893773198127747
+        },
+        {
+          "native_id": 32,
+          "x_px": 349.8346252441406,
+          "y_px": 731.986328125,
+          "score": 0.9677905440330505,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9928983449935913
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000005",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 208.8728427886963,
+          "y_px": 285.2431945800781,
+          "score": 0.9994600415229797,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9974895715713501
+        },
+        {
+          "native_id": 1,
+          "x_px": 230.62506866455078,
+          "y_px": 271.62249755859375,
+          "score": 0.9996681213378906,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9959959983825684
+        },
+        {
+          "native_id": 2,
+          "x_px": 234.9503517150879,
+          "y_px": 273.5438232421875,
+          "score": 0.9996156692504883,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9953426122665405
+        },
+        {
+          "native_id": 3,
+          "x_px": 242.31131172180176,
+          "y_px": 276.0247497558594,
+          "score": 0.9997360110282898,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9940237402915955
+        },
+        {
+          "native_id": 4,
+          "x_px": 225.66989135742188,
+          "y_px": 269.4555358886719,
+          "score": 0.9998449087142944,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975581169128418
+        },
+        {
+          "native_id": 5,
+          "x_px": 226.30934715270996,
+          "y_px": 269.56805419921875,
+          "score": 0.99979168176651,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9979311227798462
+        },
+        {
+          "native_id": 6,
+          "x_px": 227.09054374694824,
+          "y_px": 269.7565002441406,
+          "score": 0.9998313188552856,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9981960654258728
+        },
+        {
+          "native_id": 7,
+          "x_px": 260.409948348999,
+          "y_px": 289.0452880859375,
+          "score": 0.9992927312850952,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9938137531280518
+        },
+        {
+          "native_id": 8,
+          "x_px": 250.22687530517578,
+          "y_px": 284.26739501953125,
+          "score": 0.9996752738952637,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9991057515144348
+        },
+        {
+          "native_id": 9,
+          "x_px": 219.06455039978027,
+          "y_px": 308.0016174316406,
+          "score": 0.9992121458053589,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9979816675186157
+        },
+        {
+          "native_id": 10,
+          "x_px": 209.23473930358887,
+          "y_px": 305.9975891113281,
+          "score": 0.9991087317466736,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9988200068473816
+        },
+        {
+          "native_id": 11,
+          "x_px": 271.1203308105469,
+          "y_px": 350.4703063964844,
+          "score": 0.9987843632698059,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9950228929519653
+        },
+        {
+          "native_id": 12,
+          "x_px": 259.87451934814453,
+          "y_px": 372.9874572753906,
+          "score": 0.9991926550865173,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995242357254028
+        },
+        {
+          "native_id": 13,
+          "x_px": 211.43792724609375,
+          "y_px": 405.515869140625,
+          "score": 0.6224049925804138,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.993289053440094
+        },
+        {
+          "native_id": 14,
+          "x_px": 198.07571983337402,
+          "y_px": 452.272705078125,
+          "score": 0.24688616394996643,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9983420372009277
+        },
+        {
+          "native_id": 15,
+          "x_px": 166.63015365600586,
+          "y_px": 385.1343688964844,
+          "score": 0.34943708777427673,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9863613843917847
+        },
+        {
+          "native_id": 16,
+          "x_px": 149.4502830505371,
+          "y_px": 415.4012451171875,
+          "score": 0.24491101503372192,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9986128807067871
+        },
+        {
+          "native_id": 17,
+          "x_px": 145.2451629638672,
+          "y_px": 381.90728759765625,
+          "score": 0.39829063415527344,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.988578200340271
+        },
+        {
+          "native_id": 18,
+          "x_px": 140.0540370941162,
+          "y_px": 403.02685546875,
+          "score": 0.25639578700065613,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9982283711433411
+        },
+        {
+          "native_id": 19,
+          "x_px": 157.56610679626465,
+          "y_px": 375.0406494140625,
+          "score": 0.39551207423210144,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9878206849098206
+        },
+        {
+          "native_id": 20,
+          "x_px": 140.25576496124268,
+          "y_px": 395.23138427734375,
+          "score": 0.2594224214553833,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.998206377029419
+        },
+        {
+          "native_id": 21,
+          "x_px": 170.01255226135254,
+          "y_px": 376.232177734375,
+          "score": 0.3596973121166229,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9886801242828369
+        },
+        {
+          "native_id": 22,
+          "x_px": 144.33075714111328,
+          "y_px": 398.2698669433594,
+          "score": 0.22026334702968597,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9988251328468323
+        },
+        {
+          "native_id": 23,
+          "x_px": 281.6217842102051,
+          "y_px": 584.3471069335938,
+          "score": 0.9999450445175171,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999436140060425
+        },
+        {
+          "native_id": 24,
+          "x_px": 262.5095558166504,
+          "y_px": 581.1925048828125,
+          "score": 0.9996817111968994,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999397993087769
+        },
+        {
+          "native_id": 25,
+          "x_px": 169.69061851501465,
+          "y_px": 601.6517333984375,
+          "score": 0.9876277446746826,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997929930686951
+        },
+        {
+          "native_id": 26,
+          "x_px": 153.78236389160156,
+          "y_px": 595.221923828125,
+          "score": 0.4604800343513489,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9992491602897644
+        },
+        {
+          "native_id": 27,
+          "x_px": 102.39767646789551,
+          "y_px": 705.112548828125,
+          "score": 0.9739837050437927,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9971315860748291
+        },
+        {
+          "native_id": 28,
+          "x_px": 101.54220199584961,
+          "y_px": 682.4166259765625,
+          "score": 0.2778345048427582,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9950212240219116
+        },
+        {
+          "native_id": 29,
+          "x_px": 107.44668388366699,
+          "y_px": 738.6719360351562,
+          "score": 0.9845026135444641,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9946466088294983
+        },
+        {
+          "native_id": 30,
+          "x_px": 95.53487777709961,
+          "y_px": 707.404541015625,
+          "score": 0.44151678681373596,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9943177103996277
+        },
+        {
+          "native_id": 31,
+          "x_px": 23.379438400268555,
+          "y_px": 678.0062866210938,
+          "score": 0.9848335385322571,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9917634725570679
+        },
+        {
+          "native_id": 32,
+          "x_px": 48.274234771728516,
+          "y_px": 667.7860717773438,
+          "score": 0.4056926667690277,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9961950778961182
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000006",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 288.9594497680664,
+          "y_px": 247.52755737304688,
+          "score": 0.999988317489624,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999818801879883
+        },
+        {
+          "native_id": 1,
+          "x_px": 289.899845123291,
+          "y_px": 232.53518676757812,
+          "score": 0.9999961853027344,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999616146087646
+        },
+        {
+          "native_id": 2,
+          "x_px": 299.1726493835449,
+          "y_px": 231.76376342773438,
+          "score": 0.9999958276748657,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999611377716064
+        },
+        {
+          "native_id": 3,
+          "x_px": 304.0704574584961,
+          "y_px": 231.61776733398438,
+          "score": 0.9999971389770508,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999597072601318
+        },
+        {
+          "native_id": 4,
+          "x_px": 271.71881103515625,
+          "y_px": 234.98828125,
+          "score": 0.9999939203262329,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999562501907349
+        },
+        {
+          "native_id": 5,
+          "x_px": 265.3197555541992,
+          "y_px": 236.52224731445312,
+          "score": 0.9999936819076538,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999954342842102
+        },
+        {
+          "native_id": 6,
+          "x_px": 257.27510261535645,
+          "y_px": 238.39715576171875,
+          "score": 0.9999947547912598,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999475479125977
+        },
+        {
+          "native_id": 7,
+          "x_px": 304.8549499511719,
+          "y_px": 245.74981689453125,
+          "score": 0.999996542930603,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999736547470093
+        },
+        {
+          "native_id": 8,
+          "x_px": 239.34749221801758,
+          "y_px": 255.7630615234375,
+          "score": 0.999993085861206,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999586343765259
+        },
+        {
+          "native_id": 9,
+          "x_px": 305.1386375427246,
+          "y_px": 266.0819091796875,
+          "score": 0.9999951124191284,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999867677688599
+        },
+        {
+          "native_id": 10,
+          "x_px": 281.46146965026855,
+          "y_px": 267.8059997558594,
+          "score": 0.9999918937683105,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999810457229614
+        },
+        {
+          "native_id": 11,
+          "x_px": 331.91173553466797,
+          "y_px": 351.4404296875,
+          "score": 0.9994532465934753,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999009370803833
+        },
+        {
+          "native_id": 12,
+          "x_px": 235.13773727416992,
+          "y_px": 319.08319091796875,
+          "score": 0.9998644590377808,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999625563621521
+        },
+        {
+          "native_id": 13,
+          "x_px": 403.2909736633301,
+          "y_px": 396.6594543457031,
+          "score": 0.9345738887786865,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9966977834701538
+        },
+        {
+          "native_id": 14,
+          "x_px": 308.82396697998047,
+          "y_px": 333.62921142578125,
+          "score": 0.9854275584220886,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9984143972396851
+        },
+        {
+          "native_id": 15,
+          "x_px": 363.02295684814453,
+          "y_px": 298.7835693359375,
+          "score": 0.6817484498023987,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9991363883018494
+        },
+        {
+          "native_id": 16,
+          "x_px": 290.87821197509766,
+          "y_px": 253.22994995117188,
+          "score": 0.8940598964691162,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9982602000236511
+        },
+        {
+          "native_id": 17,
+          "x_px": 352.48809814453125,
+          "y_px": 272.90948486328125,
+          "score": 0.513569176197052,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.998608410358429
+        },
+        {
+          "native_id": 18,
+          "x_px": 282.86988258361816,
+          "y_px": 225.5445556640625,
+          "score": 0.8294534683227539,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9962497353553772
+        },
+        {
+          "native_id": 19,
+          "x_px": 344.53725814819336,
+          "y_px": 269.0043640136719,
+          "score": 0.49061501026153564,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.998794436454773
+        },
+        {
+          "native_id": 20,
+          "x_px": 264.71317291259766,
+          "y_px": 225.510498046875,
+          "score": 0.8091945052146912,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9958763122558594
+        },
+        {
+          "native_id": 21,
+          "x_px": 345.92932891845703,
+          "y_px": 278.60223388671875,
+          "score": 0.4816244840621948,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9991849064826965
+        },
+        {
+          "native_id": 22,
+          "x_px": 281.4514617919922,
+          "y_px": 241.53765869140625,
+          "score": 0.8311144113540649,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975985884666443
+        },
+        {
+          "native_id": 23,
+          "x_px": 343.70126724243164,
+          "y_px": 558.4284057617188,
+          "score": 0.9989799857139587,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998152852058411
+        },
+        {
+          "native_id": 24,
+          "x_px": 280.04275703430176,
+          "y_px": 558.310546875,
+          "score": 0.9991877675056458,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993255138397217
+        },
+        {
+          "native_id": 25,
+          "x_px": 415.9849548339844,
+          "y_px": 596.00439453125,
+          "score": 0.8355180621147156,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9976634979248047
+        },
+        {
+          "native_id": 26,
+          "x_px": 384.563232421875,
+          "y_px": 591.180419921875,
+          "score": 0.9899306297302246,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9968421459197998
+        },
+        {
+          "native_id": 27,
+          "x_px": 521.9274215698242,
+          "y_px": 695.4280395507812,
+          "score": 0.6140897870063782,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9962116479873657
+        },
+        {
+          "native_id": 28,
+          "x_px": 519.8735275268555,
+          "y_px": 689.6401977539062,
+          "score": 0.9744482636451721,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9945628046989441
+        },
+        {
+          "native_id": 29,
+          "x_px": 530.1664123535156,
+          "y_px": 731.146240234375,
+          "score": 0.9038326144218445,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9862152934074402
+        },
+        {
+          "native_id": 30,
+          "x_px": 530.1984100341797,
+          "y_px": 725.509521484375,
+          "score": 0.9932869076728821,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9813801646232605
+        },
+        {
+          "native_id": 31,
+          "x_px": 574.1759262084961,
+          "y_px": 666.3538818359375,
+          "score": 0.9007105231285095,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.970583975315094
+        },
+        {
+          "native_id": 32,
+          "x_px": 603.591064453125,
+          "y_px": 640.6635131835938,
+          "score": 0.9924153685569763,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9686776399612427
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000007",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 162.02116584777832,
+          "y_px": 272.8574523925781,
+          "score": 0.9999324083328247,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996203184127808
+        },
+        {
+          "native_id": 1,
+          "x_px": 177.6016845703125,
+          "y_px": 257.71923828125,
+          "score": 0.9999710321426392,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993657469749451
+        },
+        {
+          "native_id": 2,
+          "x_px": 181.6175308227539,
+          "y_px": 258.42498779296875,
+          "score": 0.9999696016311646,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993096590042114
+        },
+        {
+          "native_id": 3,
+          "x_px": 185.5825138092041,
+          "y_px": 259.294189453125,
+          "score": 0.999967098236084,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9990791082382202
+        },
+        {
+          "native_id": 4,
+          "x_px": 171.27963638305664,
+          "y_px": 257.00274658203125,
+          "score": 0.9999825954437256,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995556473731995
+        },
+        {
+          "native_id": 5,
+          "x_px": 171.7192268371582,
+          "y_px": 257.05810546875,
+          "score": 0.9999797344207764,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996070265769958
+        },
+        {
+          "native_id": 6,
+          "x_px": 172.27647399902344,
+          "y_px": 257.1397705078125,
+          "score": 0.9999841451644897,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996533393859863
+        },
+        {
+          "native_id": 7,
+          "x_px": 210.27825164794922,
+          "y_px": 270.859130859375,
+          "score": 0.9999682903289795,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993921518325806
+        },
+        {
+          "native_id": 8,
+          "x_px": 200.10925483703613,
+          "y_px": 268.42864990234375,
+          "score": 0.9999759197235107,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998332262039185
+        },
+        {
+          "native_id": 9,
+          "x_px": 172.02380561828613,
+          "y_px": 291.0937805175781,
+          "score": 0.9999302625656128,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999534010887146
+        },
+        {
+          "native_id": 10,
+          "x_px": 164.60315895080566,
+          "y_px": 290.08746337890625,
+          "score": 0.9999375343322754,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996968507766724
+        },
+        {
+          "native_id": 11,
+          "x_px": 227.92193412780762,
+          "y_px": 332.4666442871094,
+          "score": 0.9995313882827759,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.998536229133606
+        },
+        {
+          "native_id": 12,
+          "x_px": 206.3462619781494,
+          "y_px": 352.8783874511719,
+          "score": 0.9995825886726379,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999135732650757
+        },
+        {
+          "native_id": 13,
+          "x_px": 137.64125061035156,
+          "y_px": 323.54296875,
+          "score": 0.8194027543067932,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9965603947639465
+        },
+        {
+          "native_id": 14,
+          "x_px": 142.93092727661133,
+          "y_px": 429.668701171875,
+          "score": 0.3963453471660614,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9988958835601807
+        },
+        {
+          "native_id": 15,
+          "x_px": 161.26631927490234,
+          "y_px": 324.42987060546875,
+          "score": 0.27335792779922485,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9943771958351135
+        },
+        {
+          "native_id": 16,
+          "x_px": 123.81077671051025,
+          "y_px": 382.53143310546875,
+          "score": 0.4246750473976135,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999861478805542
+        },
+        {
+          "native_id": 17,
+          "x_px": 163.49106788635254,
+          "y_px": 318.35614013671875,
+          "score": 0.2269078493118286,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9938534498214722
+        },
+        {
+          "native_id": 18,
+          "x_px": 118.0239086151123,
+          "y_px": 369.44287109375,
+          "score": 0.404819518327713,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998419284820557
+        },
+        {
+          "native_id": 19,
+          "x_px": 174.88713455200195,
+          "y_px": 324.7613525390625,
+          "score": 0.22435715794563293,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9941573143005371
+        },
+        {
+          "native_id": 20,
+          "x_px": 126.91711807250977,
+          "y_px": 360.45013427734375,
+          "score": 0.3953694701194763,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998667240142822
+        },
+        {
+          "native_id": 21,
+          "x_px": 175.22664642333984,
+          "y_px": 330.13848876953125,
+          "score": 0.24460788071155548,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9952238202095032
+        },
+        {
+          "native_id": 22,
+          "x_px": 130.36005306243896,
+          "y_px": 362.67108154296875,
+          "score": 0.35716354846954346,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999030828475952
+        },
+        {
+          "native_id": 23,
+          "x_px": 224.13286972045898,
+          "y_px": 553.1317138671875,
+          "score": 0.9999867677688599,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999850988388062
+        },
+        {
+          "native_id": 24,
+          "x_px": 204.9162883758545,
+          "y_px": 546.6408081054688,
+          "score": 0.9999793767929077,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999942779541016
+        },
+        {
+          "native_id": 25,
+          "x_px": 104.37379932403564,
+          "y_px": 562.4583129882812,
+          "score": 0.987489640712738,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998226761817932
+        },
+        {
+          "native_id": 26,
+          "x_px": 104.38282012939453,
+          "y_px": 551.2267456054688,
+          "score": 0.46269968152046204,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997808337211609
+        },
+        {
+          "native_id": 27,
+          "x_px": 70.79095458984375,
+          "y_px": 656.3048095703125,
+          "score": 0.9534351825714111,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975594282150269
+        },
+        {
+          "native_id": 28,
+          "x_px": 73.3152437210083,
+          "y_px": 646.4882202148438,
+          "score": 0.36242958903312683,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9969395399093628
+        },
+        {
+          "native_id": 29,
+          "x_px": 73.41420650482178,
+          "y_px": 675.570556640625,
+          "score": 0.948529064655304,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9957212209701538
+        },
+        {
+          "native_id": 30,
+          "x_px": 76.5234489440918,
+          "y_px": 665.7490234375,
+          "score": 0.43970298767089844,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9962880611419678
+        },
+        {
+          "native_id": 31,
+          "x_px": -2.0009193420410156,
+          "y_px": 647.548583984375,
+          "score": 0.9693456888198853,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9919503927230835
+        },
+        {
+          "native_id": 32,
+          "x_px": 20.364824295043945,
+          "y_px": 649.0933227539062,
+          "score": 0.5479564070701599,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9958235025405884
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000008",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 289.324951171875,
+          "y_px": 238.3843994140625,
+          "score": 0.9993008375167847,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9981093406677246
+        },
+        {
+          "native_id": 1,
+          "x_px": 277.3409957885742,
+          "y_px": 221.92254638671875,
+          "score": 0.9992814660072327,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9973776340484619
+        },
+        {
+          "native_id": 2,
+          "x_px": 279.6742343902588,
+          "y_px": 220.86581420898438,
+          "score": 0.9993293285369873,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9976795315742493
+        },
+        {
+          "native_id": 3,
+          "x_px": 281.5312156677246,
+          "y_px": 219.26278686523438,
+          "score": 0.9992892742156982,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9977028965950012
+        },
+        {
+          "native_id": 4,
+          "x_px": 260.3616256713867,
+          "y_px": 229.56027221679688,
+          "score": 0.9987609386444092,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9971867203712463
+        },
+        {
+          "native_id": 5,
+          "x_px": 254.93170166015625,
+          "y_px": 233.27236938476562,
+          "score": 0.9989128112792969,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.997081458568573
+        },
+        {
+          "native_id": 6,
+          "x_px": 245.9744110107422,
+          "y_px": 237.9412841796875,
+          "score": 0.9985260963439941,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9967516660690308
+        },
+        {
+          "native_id": 7,
+          "x_px": 269.6549949645996,
+          "y_px": 234.24383544921875,
+          "score": 0.9991416931152344,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9984258413314819
+        },
+        {
+          "native_id": 8,
+          "x_px": 234.037748336792,
+          "y_px": 258.51751708984375,
+          "score": 0.999024510383606,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9972333312034607
+        },
+        {
+          "native_id": 9,
+          "x_px": 304.0117492675781,
+          "y_px": 257.4026184082031,
+          "score": 0.9996390342712402,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9989942908287048
+        },
+        {
+          "native_id": 10,
+          "x_px": 287.21135330200195,
+          "y_px": 267.4808044433594,
+          "score": 0.9992895126342773,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9985289573669434
+        },
+        {
+          "native_id": 11,
+          "x_px": 321.64576721191406,
+          "y_px": 330.7126770019531,
+          "score": 0.9985176920890808,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9981755018234253
+        },
+        {
+          "native_id": 12,
+          "x_px": 225.93946838378906,
+          "y_px": 322.72711181640625,
+          "score": 0.9968928098678589,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9931943416595459
+        },
+        {
+          "native_id": 13,
+          "x_px": 392.55884170532227,
+          "y_px": 379.05279541015625,
+          "score": 0.5416534543037415,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9918761253356934
+        },
+        {
+          "native_id": 14,
+          "x_px": 314.5455780029297,
+          "y_px": 370.340576171875,
+          "score": 0.9257479906082153,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9886353015899658
+        },
+        {
+          "native_id": 15,
+          "x_px": 357.93841552734375,
+          "y_px": 311.89599609375,
+          "score": 0.40030327439308167,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9973710775375366
+        },
+        {
+          "native_id": 16,
+          "x_px": 317.09090423583984,
+          "y_px": 279.0317077636719,
+          "score": 0.8452606201171875,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9960954785346985
+        },
+        {
+          "native_id": 17,
+          "x_px": 345.2460479736328,
+          "y_px": 287.8580322265625,
+          "score": 0.31814005970954895,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9971242547035217
+        },
+        {
+          "native_id": 18,
+          "x_px": 309.2963447570801,
+          "y_px": 245.21435546875,
+          "score": 0.77067631483078,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9945023059844971
+        },
+        {
+          "native_id": 19,
+          "x_px": 339.2888832092285,
+          "y_px": 288.882080078125,
+          "score": 0.3070325553417206,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9972936511039734
+        },
+        {
+          "native_id": 20,
+          "x_px": 291.914737701416,
+          "y_px": 250.93978881835938,
+          "score": 0.7533336877822876,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9930160045623779
+        },
+        {
+          "native_id": 21,
+          "x_px": 341.72551345825195,
+          "y_px": 300.46875,
+          "score": 0.30414751172065735,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9976062774658203
+        },
+        {
+          "native_id": 22,
+          "x_px": 295.14502716064453,
+          "y_px": 263.7489929199219,
+          "score": 0.7228443026542664,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9952195286750793
+        },
+        {
+          "native_id": 23,
+          "x_px": 309.5133247375488,
+          "y_px": 584.9923095703125,
+          "score": 0.9999245405197144,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999382495880127
+        },
+        {
+          "native_id": 24,
+          "x_px": 230.82706260681152,
+          "y_px": 591.9463500976562,
+          "score": 0.9998220801353455,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9996516704559326
+        },
+        {
+          "native_id": 25,
+          "x_px": 404.0180969238281,
+          "y_px": 634.0316772460938,
+          "score": 0.9401191473007202,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9998445510864258
+        },
+        {
+          "native_id": 26,
+          "x_px": 313.9420166015625,
+          "y_px": 631.7254638671875,
+          "score": 0.9936314225196838,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997822642326355
+        },
+        {
+          "native_id": 27,
+          "x_px": 434.0705795288086,
+          "y_px": 777.6007690429688,
+          "score": 0.9682687520980835,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9988033771514893
+        },
+        {
+          "native_id": 28,
+          "x_px": 325.4618682861328,
+          "y_px": 736.3954467773438,
+          "score": 0.934642493724823,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9989822506904602
+        },
+        {
+          "native_id": 29,
+          "x_px": 422.7477264404297,
+          "y_px": 805.6591186523438,
+          "score": 0.9400935769081116,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9981227517127991
+        },
+        {
+          "native_id": 30,
+          "x_px": 309.4178123474121,
+          "y_px": 742.6986083984375,
+          "score": 0.831520140171051,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9986323714256287
+        },
+        {
+          "native_id": 31,
+          "x_px": 516.3381271362305,
+          "y_px": 808.47216796875,
+          "score": 0.9660712480545044,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9920070171356201
+        },
+        {
+          "native_id": 32,
+          "x_px": 369.7815399169922,
+          "y_px": 804.6429443359375,
+          "score": 0.9353922605514526,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9968906044960022
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000009",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 227.20928192138672,
+          "y_px": 207.53317260742188,
+          "score": 0.9999949932098389,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999923706054688
+        },
+        {
+          "native_id": 1,
+          "x_px": 213.5522117614746,
+          "y_px": 197.2841796875,
+          "score": 0.9999967813491821,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999984860420227
+        },
+        {
+          "native_id": 2,
+          "x_px": 217.65883255004883,
+          "y_px": 194.94345092773438,
+          "score": 0.9999966621398926,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999855756759644
+        },
+        {
+          "native_id": 3,
+          "x_px": 222.76263427734375,
+          "y_px": 192.84439086914062,
+          "score": 0.9999973773956299,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999984860420227
+        },
+        {
+          "native_id": 4,
+          "x_px": 201.09939765930176,
+          "y_px": 207.199462890625,
+          "score": 0.9999969005584717,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999849796295166
+        },
+        {
+          "native_id": 5,
+          "x_px": 196.51236534118652,
+          "y_px": 212.48727416992188,
+          "score": 0.9999972581863403,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999984860420227
+        },
+        {
+          "native_id": 6,
+          "x_px": 191.8411159515381,
+          "y_px": 217.72637939453125,
+          "score": 0.9999970197677612,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999842643737793
+        },
+        {
+          "native_id": 7,
+          "x_px": 228.7847900390625,
+          "y_px": 206.3206787109375,
+          "score": 0.9999973773956299,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999885559082031
+        },
+        {
+          "native_id": 8,
+          "x_px": 187.7867660522461,
+          "y_px": 241.75958251953125,
+          "score": 0.9999973773956299,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.99998939037323
+        },
+        {
+          "native_id": 9,
+          "x_px": 257.16451835632324,
+          "y_px": 219.55813598632812,
+          "score": 0.9999960660934448,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999946355819702
+        },
+        {
+          "native_id": 10,
+          "x_px": 238.67667388916016,
+          "y_px": 232.01571655273438,
+          "score": 0.9999966621398926,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999938011169434
+        },
+        {
+          "native_id": 11,
+          "x_px": 313.2125587463379,
+          "y_px": 295.46484375,
+          "score": 0.9998601675033569,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999701976776123
+        },
+        {
+          "native_id": 12,
+          "x_px": 214.81591415405273,
+          "y_px": 294.87542724609375,
+          "score": 0.9999717473983765,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999856948852539
+        },
+        {
+          "native_id": 13,
+          "x_px": 384.3981628417969,
+          "y_px": 334.15032958984375,
+          "score": 0.7529820203781128,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993270635604858
+        },
+        {
+          "native_id": 14,
+          "x_px": 271.80812644958496,
+          "y_px": 338.178955078125,
+          "score": 0.9745824337005615,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997796416282654
+        },
+        {
+          "native_id": 15,
+          "x_px": 359.65564727783203,
+          "y_px": 277.6250915527344,
+          "score": 0.7576407790184021,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999701201915741
+        },
+        {
+          "native_id": 16,
+          "x_px": 310.79271697998047,
+          "y_px": 239.46871948242188,
+          "score": 0.9522567987442017,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997990727424622
+        },
+        {
+          "native_id": 17,
+          "x_px": 351.805606842041,
+          "y_px": 265.3489990234375,
+          "score": 0.6632380485534668,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995706677436829
+        },
+        {
+          "native_id": 18,
+          "x_px": 304.83702850341797,
+          "y_px": 220.03323364257812,
+          "score": 0.9197014570236206,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9995885491371155
+        },
+        {
+          "native_id": 19,
+          "x_px": 343.0851058959961,
+          "y_px": 262.4342041015625,
+          "score": 0.6456143260002136,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999629020690918
+        },
+        {
+          "native_id": 20,
+          "x_px": 299.1573371887207,
+          "y_px": 217.609375,
+          "score": 0.9123821258544922,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9994854927062988
+        },
+        {
+          "native_id": 21,
+          "x_px": 341.55192947387695,
+          "y_px": 263.7315368652344,
+          "score": 0.634229302406311,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997472167015076
+        },
+        {
+          "native_id": 22,
+          "x_px": 301.5070037841797,
+          "y_px": 223.04220581054688,
+          "score": 0.9041616320610046,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9997150301933289
+        },
+        {
+          "native_id": 23,
+          "x_px": 290.9479064941406,
+          "y_px": 569.3333740234375,
+          "score": 0.9999699592590332,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999995231628418
+        },
+        {
+          "native_id": 24,
+          "x_px": 230.86875915527344,
+          "y_px": 558.264404296875,
+          "score": 0.9999955892562866,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999977350234985
+        },
+        {
+          "native_id": 25,
+          "x_px": 378.6712646484375,
+          "y_px": 651.7685546875,
+          "score": 0.8800297379493713,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.999743640422821
+        },
+        {
+          "native_id": 26,
+          "x_px": 327.5071105957031,
+          "y_px": 479.8782043457031,
+          "score": 0.9992449283599854,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9999845027923584
+        },
+        {
+          "native_id": 27,
+          "x_px": 367.38851165771484,
+          "y_px": 767.4810180664062,
+          "score": 0.9685141444206238,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9986513257026672
+        },
+        {
+          "native_id": 28,
+          "x_px": 389.92212295532227,
+          "y_px": 666.3862915039062,
+          "score": 0.9973119497299194,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9993139505386353
+        },
+        {
+          "native_id": 29,
+          "x_px": 351.0146255493164,
+          "y_px": 792.7855224609375,
+          "score": 0.9630571007728577,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9976490139961243
+        },
+        {
+          "native_id": 30,
+          "x_px": 388.65289306640625,
+          "y_px": 691.2293090820312,
+          "score": 0.9907097816467285,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9975488781929016
+        },
+        {
+          "native_id": 31,
+          "x_px": 437.15979766845703,
+          "y_px": 809.9085083007812,
+          "score": 0.9660183787345886,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.989871084690094
+        },
+        {
+          "native_id": 32,
+          "x_px": 484.37793731689453,
+          "y_px": 686.193359375,
+          "score": 0.9951561689376831,
+          "score_type": "landmark_visibility",
+          "coordinate_available": true,
+          "presence": 0.9812113046646118
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "image_id": "image_000010",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    }
+  ]
+}

@@ -36,3 +36,7 @@ outputs/mmpose_video/
 outputs/deepercut/
 outputs/deepercut_multicut/
 outputs/deepercut_single/
+
+# Yerel Word raporları ve çalışma önbellekleri
+/outputs/reports/
+**/runtime_cache/

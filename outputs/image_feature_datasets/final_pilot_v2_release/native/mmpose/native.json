@@ -1,0 +1,1579 @@
+{
+  "library": "mmpose",
+  "coordinate_unit": "decoded input-image pixels",
+  "z_used": false,
+  "manual_coordinate_corrections": false,
+  "training": false,
+  "samples": [
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 345.5774841308594,
+          "y_px": 300.7235107421875,
+          "score": 1.044353723526001,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 345.5774841308594,
+          "y_px": 283.95050048828125,
+          "score": 1.0146384239196777,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 323.2135009765625,
+          "y_px": 280.2231750488281,
+          "score": 1.0246803760528564,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 304.57684326171875,
+          "y_px": 306.31451416015625,
+          "score": 0.36180245876312256,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 241.21217346191406,
+          "y_px": 310.0418395996094,
+          "score": 0.9609103202819824,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 332.5318298339844,
+          "y_px": 408.816162109375,
+          "score": 0.778728723526001,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 181.57484436035156,
+          "y_px": 393.9068298339844,
+          "score": 0.8068631887435913,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 379.1235046386719,
+          "y_px": 494.5448303222656,
+          "score": 0.8695101737976074,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 136.8468475341797,
+          "y_px": 479.635498046875,
+          "score": 0.7813923358917236,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 431.30615234375,
+          "y_px": 569.0914916992188,
+          "score": 0.9291602969169617,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 120.07384490966797,
+          "y_px": 546.7274780273438,
+          "score": 0.8172080516815186,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 308.3041687011719,
+          "y_px": 636.1834716796875,
+          "score": 0.7979119420051575,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 192.7568359375,
+          "y_px": 632.4561157226562,
+          "score": 0.8103219270706177,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 394.0328369140625,
+          "y_px": 729.3668212890625,
+          "score": 0.8604674339294434,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 101.43717956542969,
+          "y_px": 738.6851196289062,
+          "score": 0.9194042682647705,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 416.3968200683594,
+          "y_px": 854.2324829101562,
+          "score": 0.9704587459564209,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 177.84750366210938,
+          "y_px": 850.505126953125,
+          "score": 0.9035289287567139,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            69.87263488769531,
+            181.8215789794922,
+            498.2803649902344,
+            945.1793823242188
+          ],
+          "score": 0.8946330547332764
+        }
+      ],
+      "image_id": "image_000001",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 202.13475036621094,
+          "y_px": 305.09393310546875,
+          "score": 0.9711198806762695,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 224.11114501953125,
+          "y_px": 278.7222595214844,
+          "score": 1.0639101266860962,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 199.20455932617188,
+          "y_px": 294.8382873535156,
+          "score": 0.9424206018447876,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 310.5516357421875,
+          "y_px": 290.4429931640625,
+          "score": 0.9130261540412903,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 306.1563720703125,
+          "y_px": 318.27978515625,
+          "score": 0.40272000432014465,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 373.5506591796875,
+          "y_px": 385.6740417480469,
+          "score": 0.6653168201446533,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 238.7620849609375,
+          "y_px": 413.5108337402344,
+          "score": 0.8173691034317017,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 440.9449462890625,
+          "y_px": 457.463623046875,
+          "score": 0.8599525690078735,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 228.5064239501953,
+          "y_px": 504.3465881347656,
+          "score": 0.8605570793151855,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 524.4552612304688,
+          "y_px": 439.88250732421875,
+          "score": 0.8460626602172852,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 172.8328857421875,
+          "y_px": 492.6258544921875,
+          "score": 0.9177336096763611,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 370.6204528808594,
+          "y_px": 609.8333129882812,
+          "score": 0.6479521989822388,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 268.0639343261719,
+          "y_px": 605.4380493164062,
+          "score": 0.7321755886077881,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 326.66766357421875,
+          "y_px": 552.6947021484375,
+          "score": 0.7165735363960266,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 187.48382568359375,
+          "y_px": 560.0201416015625,
+          "score": 0.8770284652709961,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 243.15736389160156,
+          "y_px": 684.5530395507812,
+          "score": 0.6653328537940979,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 203.59983825683594,
+          "y_px": 650.8558959960938,
+          "score": 0.7370637655258179,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            125.07085418701172,
+            198.9060516357422,
+            575.1474609375,
+            748.2532348632812
+          ],
+          "score": 0.8879937529563904
+        }
+      ],
+      "image_id": "image_000002",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 239.44366455078125,
+          "y_px": 191.96498107910156,
+          "score": 0.9155992269515991,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 275.0403137207031,
+          "y_px": 187.1108856201172,
+          "score": 1.0284714698791504,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 229.7354736328125,
+          "y_px": 191.96498107910156,
+          "score": 1.007901906967163,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 328.435302734375,
+          "y_px": 255.06814575195312,
+          "score": 0.9504333734512329,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 224.8813934326172,
+          "y_px": 263.1582946777344,
+          "score": 0.5779796838760376,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 342.9975891113281,
+          "y_px": 314.9352722167969,
+          "score": 0.7887375950813293,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 207.0830535888672,
+          "y_px": 348.91387939453125,
+          "score": 0.855226457118988,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 396.392578125,
+          "y_px": 386.1285705566406,
+          "score": 0.8539725542068481,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 169.8683624267578,
+          "y_px": 433.05145263671875,
+          "score": 1.0174376964569092,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 435.22528076171875,
+          "y_px": 416.87115478515625,
+          "score": 0.8354257345199585,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 108.38322448730469,
+          "y_px": 468.6481018066406,
+          "score": 0.8994544744491577,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 401.2466735839844,
+          "y_px": 505.86279296875,
+          "score": 0.8002532124519348,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 309.0189514160156,
+          "y_px": 528.5151977539062,
+          "score": 0.7080700397491455,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 483.7662048339844,
+          "y_px": 445.9956970214844,
+          "score": 1.011607050895691,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 228.11744689941406,
+          "y_px": 522.0430908203125,
+          "score": 0.8578163385391235,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 477.2940673828125,
+          "y_px": 567.3479614257812,
+          "score": 0.9361969232559204,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 315.4910583496094,
+          "y_px": 619.1249389648438,
+          "score": 0.8149913549423218,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            55.63544845581055,
+            152.8128662109375,
+            552.6942749023438,
+            680.929443359375
+          ],
+          "score": 0.89357990026474
+        }
+      ],
+      "image_id": "image_000003",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 320.41265869140625,
+          "y_px": 221.35011291503906,
+          "score": 0.9782374501228333,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 321.8455810546875,
+          "y_px": 209.88671875,
+          "score": 0.9617371559143066,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 297.4858703613281,
+          "y_px": 198.42332458496094,
+          "score": 1.049952507019043,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 214.376220703125,
+          "y_px": 242.843994140625,
+          "score": 0.3143051266670227,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 218.6750030517578,
+          "y_px": 225.64889526367188,
+          "score": 0.9183839559555054,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 308.94927978515625,
+          "y_px": 328.8194885253906,
+          "score": 0.8119045495986938,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 177.12017822265625,
+          "y_px": 307.32562255859375,
+          "score": 0.6775953769683838,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 373.4308776855469,
+          "y_px": 390.43524169921875,
+          "score": 0.8987430334091187,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 124.10195922851562,
+          "y_px": 391.8681945800781,
+          "score": 0.8420110940933228,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 379.16259765625,
+          "y_px": 314.490234375,
+          "score": 0.823016345500946,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 138.43121337890625,
+          "y_px": 331.6853332519531,
+          "score": 0.7561625242233276,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 270.2602844238281,
+          "y_px": 529.428955078125,
+          "score": 0.7845805287361145,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 167.08970642089844,
+          "y_px": 516.5326538085938,
+          "score": 0.7961578965187073,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 334.7419128417969,
+          "y_px": 555.2216186523438,
+          "score": 0.878609299659729,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 72.51666259765625,
+          "y_px": 529.428955078125,
+          "score": 0.8807666301727295,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 225.83963012695312,
+          "y_px": 636.8983154296875,
+          "score": 0.7624443769454956,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 136.998291015625,
+          "y_px": 644.06298828125,
+          "score": 0.8790048360824585,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            41.62712478637695,
+            121.33196258544922,
+            407.186279296875,
+            708.2579956054688
+          ],
+          "score": 0.9070982933044434
+        }
+      ],
+      "image_id": "image_000004",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 293.2025146484375,
+          "y_px": 116.65902709960938,
+          "score": 0.7967698574066162,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 282.303466796875,
+          "y_px": 113.02601623535156,
+          "score": 0.7766119837760925,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 260.50543212890625,
+          "y_px": 105.76000213623047,
+          "score": 0.9321706891059875,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 231.44134521484375,
+          "y_px": 172.9706573486328,
+          "score": 0.3867109417915344,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 207.82679748535156,
+          "y_px": 172.9706573486328,
+          "score": 0.9386085867881775,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 320.4500732421875,
+          "y_px": 263.7958679199219,
+          "score": 0.778482973575592,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 193.2947540283203,
+          "y_px": 251.08035278320312,
+          "score": 0.6971602439880371,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 414.9082946777344,
+          "y_px": 261.9793701171875,
+          "score": 0.9239914417266846,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 127.90060424804688,
+          "y_px": 334.6395568847656,
+          "score": 0.8591337203979492,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 369.4956970214844,
+          "y_px": 196.58522033691406,
+          "score": 0.8177238702774048,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 51.607418060302734,
+          "y_px": 285.59393310546875,
+          "score": 0.8574658632278442,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 300.468505859375,
+          "y_px": 507.20745849609375,
+          "score": 0.7316490411758423,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 206.01028442382812,
+          "y_px": 487.2259216308594,
+          "score": 0.6820260286331177,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 373.1286926269531,
+          "y_px": 605.2987060546875,
+          "score": 0.9317892789840698,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 289.5694885253906,
+          "y_px": 512.656982421875,
+          "score": 0.7497464418411255,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 327.7160949707031,
+          "y_px": 752.435546875,
+          "score": 0.9029189348220825,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 296.83551025390625,
+          "y_px": 647.0783081054688,
+          "score": 0.7027045488357544,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            1.0181397199630737,
+            67.9767074584961,
+            436.4335021972656,
+            812.0169067382812
+          ],
+          "score": 0.9026125073432922
+        }
+      ],
+      "image_id": "image_000005",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 180.30010986328125,
+          "y_px": 283.3277282714844,
+          "score": 0.9407851696014404,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 196.72103881835938,
+          "y_px": 262.80157470703125,
+          "score": 1.010385513305664,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 185.7737579345703,
+          "y_px": 264.16998291015625,
+          "score": 0.8093050718307495,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 256.93115234375,
+          "y_px": 284.6961364746094,
+          "score": 0.9803891181945801,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 265.1416320800781,
+          "y_px": 284.6961364746094,
+          "score": 0.5360037088394165,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 266.5100402832031,
+          "y_px": 346.2746887207031,
+          "score": 0.7307994365692139,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 245.98387145996094,
+          "y_px": 379.1165771484375,
+          "score": 0.5072007179260254,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 173.45803833007812,
+          "y_px": 402.37957763671875,
+          "score": 0.6964538097381592,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 198.08946228027344,
+          "y_px": 480.3790283203125,
+          "score": 0.6754701733589172,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 146.08981323242188,
+          "y_px": 395.5375061035156,
+          "score": 0.6973217725753784,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 148.82662963867188,
+          "y_px": 425.642578125,
+          "score": 0.586113691329956,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 280.19415283203125,
+          "y_px": 591.2203979492188,
+          "score": 0.7351316213607788,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 233.6681671142578,
+          "y_px": 563.8521728515625,
+          "score": 0.5802630186080933,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 151.56346130371094,
+          "y_px": 611.74658203125,
+          "score": 0.7266439199447632,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 143.3529815673828,
+          "y_px": 574.7994384765625,
+          "score": 0.7376149892807007,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 122.8268051147461,
+          "y_px": 722.5879516601562,
+          "score": 0.805772066116333,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 66.721923828125,
+          "y_px": 662.3778076171875,
+          "score": 0.8222568035125732,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            0.06234131008386612,
+            193.28623962402344,
+            363.2746887207031,
+            753.7877197265625
+          ],
+          "score": 0.885770320892334
+        }
+      ],
+      "image_id": "image_000006",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 352.5753479003906,
+          "y_px": 252.71920776367188,
+          "score": 0.8268821835517883,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 354.0404357910156,
+          "y_px": 236.60328674316406,
+          "score": 0.7932150959968567,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 337.92449951171875,
+          "y_px": 229.27784729003906,
+          "score": 0.9258232116699219,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 273.46075439453125,
+          "y_px": 257.1144714355469,
+          "score": 0.34300941228866577,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 269.06549072265625,
+          "y_px": 248.32395935058594,
+          "score": 0.9307802319526672,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 333.52923583984375,
+          "y_px": 337.69415283203125,
+          "score": 0.6710577011108398,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 236.83363342285156,
+          "y_px": 317.1829528808594,
+          "score": 0.772336483001709,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 400.92315673828125,
+          "y_px": 390.43719482421875,
+          "score": 0.809351921081543,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 308.622802734375,
+          "y_px": 315.7178649902344,
+          "score": 0.5569137334823608,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 377.4817810058594,
+          "y_px": 318.6480407714844,
+          "score": 0.714098334312439,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 333.52923583984375,
+          "y_px": 286.4161682128906,
+          "score": 0.4497990608215332,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 351.1102600097656,
+          "y_px": 535.4805908203125,
+          "score": 0.6369872093200684,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 291.0417785644531,
+          "y_px": 550.1314697265625,
+          "score": 0.7012842893600464,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 427.294677734375,
+          "y_px": 626.31591796875,
+          "score": 0.21862396597862244,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 418.5041809082031,
+          "y_px": 586.7586059570312,
+          "score": 0.6502795219421387,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 332.06414794921875,
+          "y_px": 632.1762084960938,
+          "score": 0.10468882322311401,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 521.0601196289062,
+          "y_px": 693.7097778320312,
+          "score": 0.7810888886451721,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            175.30416870117188,
+            141.665771484375,
+            576.729248046875,
+            741.7645874023438
+          ],
+          "score": 0.8981691598892212
+        }
+      ],
+      "image_id": "image_000007",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 145.53257751464844,
+          "y_px": 267.4620056152344,
+          "score": 0.9001904726028442,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 160.88746643066406,
+          "y_px": 249.7447967529297,
+          "score": 0.9852734804153442,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 147.89486694335938,
+          "y_px": 254.46939086914062,
+          "score": 0.8314837217330933,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 221.1259307861328,
+          "y_px": 272.18658447265625,
+          "score": 0.9416275024414062,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 219.9447784423828,
+          "y_px": 274.54888916015625,
+          "score": 0.4623578190803528,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 231.75624084472656,
+          "y_px": 326.5193176269531,
+          "score": 0.7417354583740234,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 193.95956420898438,
+          "y_px": 358.4102478027344,
+          "score": 0.5753134489059448,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 117.18505859375,
+          "y_px": 309.9832763671875,
+          "score": 0.5904818773269653,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 154.9817352294922,
+          "y_px": 442.2716369628906,
+          "score": 0.7764163017272949,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 127.81537628173828,
+          "y_px": 305.2586669921875,
+          "score": 0.5192698240280151,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 123.09078979492188,
+          "y_px": 389.12005615234375,
+          "score": 0.718636155128479,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 228.2128143310547,
+          "y_px": 553.2993774414062,
+          "score": 0.7023659348487854,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 186.87269592285156,
+          "y_px": 524.951904296875,
+          "score": 0.5838345289230347,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 108.91703796386719,
+          "y_px": 561.5673828125,
+          "score": 0.6283587217330933,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 100.64901733398438,
+          "y_px": 536.7633666992188,
+          "score": 0.7044777870178223,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 101.83016204833984,
+          "y_px": 651.3345336914062,
+          "score": 0.6786061525344849,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 46.316287994384766,
+          "y_px": 630.0739135742188,
+          "score": 0.7250785827636719,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            0.0,
+            196.82945251464844,
+            300.5143127441406,
+            680.626953125
+          ],
+          "score": 0.8983580470085144
+        }
+      ],
+      "image_id": "image_000008",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 328.1026611328125,
+          "y_px": 220.66104125976562,
+          "score": 0.9548088312149048,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 323.0238037109375,
+          "y_px": 208.8104248046875,
+          "score": 0.8743171691894531,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 299.32257080078125,
+          "y_px": 203.73158264160156,
+          "score": 0.9677152633666992,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 316.25201416015625,
+          "y_px": 251.1340789794922,
+          "score": 0.32732927799224854,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 231.60472106933594,
+          "y_px": 249.44113159179688,
+          "score": 0.9652094841003418,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 314.55908203125,
+          "y_px": 329.0096130371094,
+          "score": 0.6068817377090454,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 234.99061584472656,
+          "y_px": 310.3871765136719,
+          "score": 0.7705835103988647,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 392.4346008300781,
+          "y_px": 379.7979736328125,
+          "score": 0.7538766860961914,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 321.33087158203125,
+          "y_px": 345.9390563964844,
+          "score": 0.6803354024887085,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 380.583984375,
+          "y_px": 322.2378234863281,
+          "score": 0.6396105289459229,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 363.6545104980469,
+          "y_px": 307.0013122558594,
+          "score": 0.6385706663131714,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 317.9449768066406,
+          "y_px": 566.0220336914062,
+          "score": 0.702473521232605,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 238.37649536132812,
+          "y_px": 569.407958984375,
+          "score": 0.7588146924972534,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 409.36407470703125,
+          "y_px": 632.0469360351562,
+          "score": 0.8897747993469238,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 339.9532775878906,
+          "y_px": 645.5905151367188,
+          "score": 0.739316463470459,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 438.1441345214844,
+          "y_px": 781.0262451171875,
+          "score": 0.9079509973526001,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 324.7167663574219,
+          "y_px": 738.7025756835938,
+          "score": 0.8046963810920715,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            124.906494140625,
+            138.04527282714844,
+            534.6846923828125,
+            831.4760131835938
+          ],
+          "score": 0.8964280486106873
+        }
+      ],
+      "image_id": "image_000009",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    },
+    {
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 277.9551696777344,
+          "y_px": 163.1038818359375,
+          "score": 0.8689299821853638,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 260.6103210449219,
+          "y_px": 156.1659393310547,
+          "score": 0.7429642677307129,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 248.4689178466797,
+          "y_px": 156.1659393310547,
+          "score": 0.9368160367012024,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 215.5137176513672,
+          "y_px": 220.34188842773438,
+          "score": 0.4170662760734558,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 206.84129333496094,
+          "y_px": 220.34188842773438,
+          "score": 0.958344578742981,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 300.50347900390625,
+          "y_px": 296.65924072265625,
+          "score": 0.6528192758560181,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 213.7792205810547,
+          "y_px": 291.4557800292969,
+          "score": 0.7475367188453674,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 382.0242614746094,
+          "y_px": 333.0834045410156,
+          "score": 0.8270392417907715,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 276.2206726074219,
+          "y_px": 336.5523681640625,
+          "score": 0.8079683780670166,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 359.4759521484375,
+          "y_px": 263.7040100097656,
+          "score": 0.7568754553794861,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 321.3172912597656,
+          "y_px": 248.09364318847656,
+          "score": 0.7663177251815796,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 297.0345153808594,
+          "y_px": 532.5491943359375,
+          "score": 0.5388144254684448,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 227.6551055908203,
+          "y_px": 537.7526245117188,
+          "score": 0.6862831115722656,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 380.289794921875,
+          "y_px": 645.2907104492188,
+          "score": 0.6391534805297852,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 366.4139099121094,
+          "y_px": 551.6285400390625,
+          "score": 0.7157047986984253,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 364.6794128417969,
+          "y_px": 770.1736450195312,
+          "score": 0.754541277885437,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 409.7760314941406,
+          "y_px": 678.2459106445312,
+          "score": 0.6726024746894836,
+          "score_type": "RTMPose_keypoint_score",
+          "coordinate_available": true
+        }
+      ],
+      "candidate_count": 1,
+      "selected_index": 0,
+      "candidate_boxes": [
+        {
+          "index": 0,
+          "xyxy": [
+            90.20320129394531,
+            121.8231430053711,
+            507.33477783203125,
+            832.2681884765625
+          ],
+          "score": 0.8949540853500366
+        }
+      ],
+      "image_id": "image_000010",
+      "error": null,
+      "detection_status": "POSE_RETURNED"
+    }
+  ]
+}

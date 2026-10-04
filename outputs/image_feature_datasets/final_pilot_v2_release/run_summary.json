@@ -1,0 +1,281 @@
+{
+  "status": "COMPLETED",
+  "image_count": 10,
+  "csv_count": 16,
+  "method_csv_count": 12,
+  "combined_csv_count": 4,
+  "by_library": {
+    "mediapipe": {
+      "images": 10,
+      "detection_status": {
+        "POSE_RETURNED": 10
+      },
+      "available_common_points": 120,
+      "numeric_xy": 240,
+      "numeric_angles": 120,
+      "numeric_ratios": 210
+    },
+    "openpose": {
+      "images": 10,
+      "detection_status": {
+        "POSE_RETURNED": 10
+      },
+      "available_common_points": 119,
+      "numeric_xy": 238,
+      "numeric_angles": 119,
+      "numeric_ratios": 207
+    },
+    "mmpose": {
+      "images": 10,
+      "detection_status": {
+        "POSE_RETURNED": 10
+      },
+      "available_common_points": 120,
+      "numeric_xy": 240,
+      "numeric_angles": 120,
+      "numeric_ratios": 210
+    },
+    "deepercut": {
+      "images": 10,
+      "detection_status": {
+        "POSE_RETURNED": 10
+      },
+      "available_common_points": 75,
+      "numeric_xy": 150,
+      "numeric_angles": 56,
+      "numeric_ratios": 62
+    }
+  },
+  "csv_roundtrip": [
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mediapipe_xy.csv",
+      "rows": 10,
+      "columns": 58,
+      "numeric_values_roundtripped_exactly": 290,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mediapipe_angles.csv",
+      "rows": 10,
+      "columns": 34,
+      "numeric_values_roundtripped_exactly": 170,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mediapipe_ratios.csv",
+      "rows": 10,
+      "columns": 52,
+      "numeric_values_roundtripped_exactly": 260,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/combined/mediapipe_features.csv",
+      "rows": 10,
+      "columns": 124,
+      "numeric_values_roundtripped_exactly": 620,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/openpose_xy.csv",
+      "rows": 10,
+      "columns": 58,
+      "numeric_values_roundtripped_exactly": 288,
+      "null_values_preserved_as_empty": 2,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/openpose_angles.csv",
+      "rows": 10,
+      "columns": 34,
+      "numeric_values_roundtripped_exactly": 169,
+      "null_values_preserved_as_empty": 1,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/openpose_ratios.csv",
+      "rows": 10,
+      "columns": 52,
+      "numeric_values_roundtripped_exactly": 257,
+      "null_values_preserved_as_empty": 3,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/combined/openpose_features.csv",
+      "rows": 10,
+      "columns": 124,
+      "numeric_values_roundtripped_exactly": 614,
+      "null_values_preserved_as_empty": 6,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mmpose_xy.csv",
+      "rows": 10,
+      "columns": 58,
+      "numeric_values_roundtripped_exactly": 290,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mmpose_angles.csv",
+      "rows": 10,
+      "columns": 34,
+      "numeric_values_roundtripped_exactly": 170,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/mmpose_ratios.csv",
+      "rows": 10,
+      "columns": 52,
+      "numeric_values_roundtripped_exactly": 260,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/combined/mmpose_features.csv",
+      "rows": 10,
+      "columns": 124,
+      "numeric_values_roundtripped_exactly": 620,
+      "null_values_preserved_as_empty": 0,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/deepercut_xy.csv",
+      "rows": 10,
+      "columns": 58,
+      "numeric_values_roundtripped_exactly": 194,
+      "null_values_preserved_as_empty": 96,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/deepercut_angles.csv",
+      "rows": 10,
+      "columns": 34,
+      "numeric_values_roundtripped_exactly": 100,
+      "null_values_preserved_as_empty": 70,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/csv/deepercut_ratios.csv",
+      "rows": 10,
+      "columns": 52,
+      "numeric_values_roundtripped_exactly": 106,
+      "null_values_preserved_as_empty": 154,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/combined/deepercut_features.csv",
+      "rows": 10,
+      "columns": 124,
+      "numeric_values_roundtripped_exactly": 312,
+      "null_values_preserved_as_empty": 308,
+      "boolean_values_preserved_as_true_false": 0,
+      "all_text_values_preserved": true
+    },
+    {
+      "file": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/common_keypoints_xy.csv",
+      "rows": 480,
+      "columns": 14,
+      "numeric_values_roundtripped_exactly": 3463,
+      "null_values_preserved_as_empty": 857,
+      "boolean_values_preserved_as_true_false": 480,
+      "all_text_values_preserved": true
+    }
+  ],
+  "commands": {
+    "mediapipe": [
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/.venv_mediapipe/bin/python",
+      "-B",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/scripts/pose_image_dataset_worker_v2.py",
+      "--library",
+      "mediapipe",
+      "--root",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis",
+      "--run",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release",
+      "--output",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/native/mediapipe/native.json"
+    ],
+    "mmpose": [
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/.venv_mmpose/bin/python",
+      "-B",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/scripts/pose_image_dataset_worker_v2.py",
+      "--library",
+      "mmpose",
+      "--root",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis",
+      "--run",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release",
+      "--output",
+      "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/native/mmpose/native.json"
+    ],
+    "deepercut": [
+      "/usr/local/bin/docker",
+      "run",
+      "--rm",
+      "--pull",
+      "never",
+      "--platform",
+      "linux/amd64",
+      "--network",
+      "none",
+      "--read-only",
+      "--tmpfs",
+      "/tmp",
+      "--cpus",
+      "4",
+      "-e",
+      "PYTHONDONTWRITEBYTECODE=1",
+      "-e",
+      "PYTHONIOENCODING=utf-8",
+      "-e",
+      "MPLCONFIGDIR=/tmp/mpl",
+      "-e",
+      "TF_CUDNN_USE_AUTOTUNE=0",
+      "-e",
+      "OMP_NUM_THREADS=4",
+      "--mount",
+      "type=bind,src=/Users/rabia/Desktop/STAJ/Human_Pose_Analysis,dst=/project,readonly",
+      "--mount",
+      "type=bind,src=/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release,dst=/run,readonly",
+      "--mount",
+      "type=bind,src=/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/native/deepercut,dst=/result",
+      "-w",
+      "/project/external/pose-tensorflow",
+      "pose-tf14:latest",
+      "python3",
+      "-B",
+      "/project/scripts/pose_image_dataset_worker_v2.py",
+      "--library",
+      "deepercut",
+      "--root",
+      "/project",
+      "--run",
+      "/run",
+      "--output",
+      "/result/native.json"
+    ]
+  },
+  "inputs_and_model_files_unchanged": true,
+  "interpretation": "Counts are availability, not pose accuracy/posture recognition success. All fresh records are NOT_REVIEWED.",
+  "output_directory": "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release"
+}

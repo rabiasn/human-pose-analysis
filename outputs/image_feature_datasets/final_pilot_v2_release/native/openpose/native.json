@@ -1,0 +1,2118 @@
+{
+  "library": "openpose",
+  "samples": [
+    {
+      "image_id": "image_000001",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 346.963,
+          "y_px": 302.417,
+          "score": 0.92077,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 258.27,
+          "y_px": 403.336,
+          "score": 0.941516,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 181.641,
+          "y_px": 399.172,
+          "score": 0.920303,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 141.321,
+          "y_px": 475.685,
+          "score": 0.912872,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 113.438,
+          "y_px": 544.194,
+          "score": 0.923078,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 334.692,
+          "y_px": 407.404,
+          "score": 0.910627,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 383.1,
+          "y_px": 499.786,
+          "score": 0.884362,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 431.487,
+          "y_px": 568.33,
+          "score": 0.934589,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 242.29,
+          "y_px": 624.681,
+          "score": 0.834487,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 189.766,
+          "y_px": 624.685,
+          "score": 0.818982,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 97.2005,
+          "y_px": 745.612,
+          "score": 0.913259,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 177.761,
+          "y_px": 850.419,
+          "score": 0.944349,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 298.602,
+          "y_px": 624.692,
+          "score": 0.819192,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 395.291,
+          "y_px": 729.43,
+          "score": 0.88515,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 411.457,
+          "y_px": 858.323,
+          "score": 0.898377,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 326.649,
+          "y_px": 278.514,
+          "score": 0.932851,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 342.785,
+          "y_px": 282.349,
+          "score": 0.261731,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 242.104,
+          "y_px": 306.546,
+          "score": 0.955846,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 475.75,
+          "y_px": 882.572,
+          "score": 0.854992,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 475.856,
+          "y_px": 870.507,
+          "score": 0.822293,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 399.297,
+          "y_px": 878.411,
+          "score": 0.85248,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 145.426,
+          "y_px": 922.775,
+          "score": 0.894821,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 137.53,
+          "y_px": 910.823,
+          "score": 0.840225,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 205.986,
+          "y_px": 854.365,
+          "score": 0.851427,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000002",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 205.777,
+          "y_px": 302.635,
+          "score": 0.936271,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 306.521,
+          "y_px": 399.382,
+          "score": 0.938294,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 238.204,
+          "y_px": 415.415,
+          "score": 0.902634,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 233.964,
+          "y_px": 508.072,
+          "score": 0.847629,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 173.692,
+          "y_px": 495.803,
+          "score": 0.953729,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 371.152,
+          "y_px": 387.045,
+          "score": 0.874404,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 443.514,
+          "y_px": 459.503,
+          "score": 0.929562,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 531.985,
+          "y_px": 439.384,
+          "score": 0.906217,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 330.727,
+          "y_px": 604.681,
+          "score": 0.68997,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 278.422,
+          "y_px": 596.562,
+          "score": 0.712166,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 181.641,
+          "y_px": 560.394,
+          "score": 0.956828,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 221.934,
+          "y_px": 665.172,
+          "score": 0.737055,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 379.17,
+          "y_px": 612.722,
+          "score": 0.612947,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 330.802,
+          "y_px": 552.352,
+          "score": 0.847726,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 238.1,
+          "y_px": 697.408,
+          "score": 0.883967,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 201.754,
+          "y_px": 286.561,
+          "score": 0.448331,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 226.049,
+          "y_px": 278.285,
+          "score": 0.916036,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 18,
+          "x_px": 310.521,
+          "y_px": 286.57,
+          "score": 0.8994,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 19,
+          "x_px": 177.815,
+          "y_px": 681.175,
+          "score": 0.883999,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 185.89,
+          "y_px": 697.231,
+          "score": 0.736587,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 238.192,
+          "y_px": 725.315,
+          "score": 0.82796,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 185.793,
+          "y_px": 657.062,
+          "score": 0.375505,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 193.786,
+          "y_px": 657.023,
+          "score": 0.323832,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 229.997,
+          "y_px": 685.278,
+          "score": 0.220272,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000003",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 246.079,
+          "y_px": 197.791,
+          "score": 0.933152,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 274.453,
+          "y_px": 330.766,
+          "score": 0.950644,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 209.832,
+          "y_px": 350.842,
+          "score": 0.905477,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 169.64,
+          "y_px": 431.485,
+          "score": 0.969358,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 105.255,
+          "y_px": 471.609,
+          "score": 0.928681,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 342.818,
+          "y_px": 310.517,
+          "score": 0.907822,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 403.294,
+          "y_px": 387.159,
+          "score": 0.851313,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 431.445,
+          "y_px": 415.382,
+          "score": 0.854837,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 354.849,
+          "y_px": 512.045,
+          "score": 0.794084,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 310.624,
+          "y_px": 528.093,
+          "score": 0.773685,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 229.964,
+          "y_px": 524.126,
+          "score": 0.916098,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 310.541,
+          "y_px": 628.919,
+          "score": 0.914969,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 395.272,
+          "y_px": 495.933,
+          "score": 0.788668,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 483.703,
+          "y_px": 447.491,
+          "score": 0.8605,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 475.642,
+          "y_px": 580.39,
+          "score": 0.890328,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 238.109,
+          "y_px": 189.766,
+          "score": 0.667057,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 278.416,
+          "y_px": 181.83,
+          "score": 0.917309,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 18,
+          "x_px": 330.769,
+          "y_px": 246.107,
+          "score": 0.90837,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 19,
+          "x_px": 531.983,
+          "y_px": 580.532,
+          "score": 0.815337,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 528.163,
+          "y_px": 572.532,
+          "score": 0.779916,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 459.728,
+          "y_px": 596.535,
+          "score": 0.845652,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 322.639,
+          "y_px": 657.048,
+          "score": 0.72739,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 302.466,
+          "y_px": 661.018,
+          "score": 0.724892,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 330.702,
+          "y_px": 632.835,
+          "score": 0.707162,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000004",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 322.69,
+          "y_px": 218.077,
+          "score": 0.909825,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 246.247,
+          "y_px": 310.724,
+          "score": 0.929879,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 185.746,
+          "y_px": 302.412,
+          "score": 0.890237,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 121.416,
+          "y_px": 391.108,
+          "score": 0.886771,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 137.413,
+          "y_px": 334.636,
+          "score": 0.892819,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 306.664,
+          "y_px": 326.741,
+          "score": 0.913737,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 375.001,
+          "y_px": 387.246,
+          "score": 0.944801,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 379.05,
+          "y_px": 318.627,
+          "score": 0.904358,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 221.932,
+          "y_px": 520.146,
+          "score": 0.803465,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 173.692,
+          "y_px": 512.038,
+          "score": 0.792867,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 69.0684,
+          "y_px": 528.204,
+          "score": 0.911595,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 141.391,
+          "y_px": 652.963,
+          "score": 0.889703,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 266.357,
+          "y_px": 528.189,
+          "score": 0.78667,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 338.773,
+          "y_px": 556.268,
+          "score": 0.929989,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 221.915,
+          "y_px": 648.883,
+          "score": 0.880524,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 298.546,
+          "y_px": 197.958,
+          "score": 0.926641,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 318.725,
+          "y_px": 205.965,
+          "score": 0.329281,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 221.952,
+          "y_px": 225.92,
+          "score": 0.891707,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 205.867,
+          "y_px": 685.159,
+          "score": 0.727924,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 218.086,
+          "y_px": 685.287,
+          "score": 0.736768,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 201.789,
+          "y_px": 648.911,
+          "score": 0.655647,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 101.283,
+          "y_px": 685.143,
+          "score": 0.750562,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 93.1932,
+          "y_px": 677.01,
+          "score": 0.765621,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 157.507,
+          "y_px": 660.929,
+          "score": 0.912835,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000005",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 294.426,
+          "y_px": 117.236,
+          "score": 0.917401,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 266.254,
+          "y_px": 262.156,
+          "score": 0.918511,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 201.769,
+          "y_px": 246.17,
+          "score": 0.863572,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 129.383,
+          "y_px": 334.829,
+          "score": 0.938529,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 48.7636,
+          "y_px": 286.473,
+          "score": 0.897792,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 326.689,
+          "y_px": 270.284,
+          "score": 0.860639,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 411.343,
+          "y_px": 262.355,
+          "score": 0.94044,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 362.977,
+          "y_px": 189.875,
+          "score": 0.875553,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 258.139,
+          "y_px": 503.984,
+          "score": 0.733861,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 205.814,
+          "y_px": 499.922,
+          "score": 0.690547,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 286.408,
+          "y_px": 503.933,
+          "score": 0.808015,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 302.51,
+          "y_px": 656.915,
+          "score": 0.843682,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 306.464,
+          "y_px": 511.969,
+          "score": 0.757324,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 370.971,
+          "y_px": 596.747,
+          "score": 0.909082,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 322.787,
+          "y_px": 753.719,
+          "score": 0.858111,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 266.171,
+          "y_px": 109.331,
+          "score": 0.914437,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 17,
+          "x_px": 209.866,
+          "y_px": 165.738,
+          "score": 0.880389,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 395.3,
+          "y_px": 793.98,
+          "score": 0.757914,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 395.286,
+          "y_px": 781.937,
+          "score": 0.758804,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 298.51,
+          "y_px": 765.654,
+          "score": 0.875996,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 342.756,
+          "y_px": 693.293,
+          "score": 0.252525,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 318.682,
+          "y_px": 701.384,
+          "score": 0.301058,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 294.496,
+          "y_px": 665.111,
+          "score": 0.550729,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000006",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 181.698,
+          "y_px": 286.408,
+          "score": 0.893969,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 262.363,
+          "y_px": 362.858,
+          "score": 0.736338,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 254.203,
+          "y_px": 375.061,
+          "score": 0.568704,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 201.927,
+          "y_px": 471.884,
+          "score": 0.870328,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 149.634,
+          "y_px": 423.358,
+          "score": 0.847063,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 266.351,
+          "y_px": 338.915,
+          "score": 0.876436,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 169.625,
+          "y_px": 403.147,
+          "score": 0.831051,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 137.393,
+          "y_px": 387.068,
+          "score": 0.447179,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 262.354,
+          "y_px": 572.519,
+          "score": 0.748455,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 238.025,
+          "y_px": 556.357,
+          "score": 0.75476,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 149.534,
+          "y_px": 560.424,
+          "score": 0.856942,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 64.8984,
+          "y_px": 669.193,
+          "score": 0.85305,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 286.547,
+          "y_px": 592.625,
+          "score": 0.724168,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 149.579,
+          "y_px": 600.693,
+          "score": 0.850196,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 121.408,
+          "y_px": 725.33,
+          "score": 0.848652,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 16,
+          "x_px": 197.942,
+          "y_px": 262.359,
+          "score": 0.936707,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 18,
+          "x_px": 258.32,
+          "y_px": 278.46,
+          "score": 0.915714,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 19,
+          "x_px": 60.9378,
+          "y_px": 713.275,
+          "score": 0.788037,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 77.0458,
+          "y_px": 729.434,
+          "score": 0.793889,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 133.327,
+          "y_px": 737.597,
+          "score": 0.741025,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 8.49503,
+          "y_px": 652.979,
+          "score": 0.499424,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 36.5604,
+          "y_px": 644.99,
+          "score": 0.467373,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 65.0248,
+          "y_px": 693.083,
+          "score": 0.834148,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000007",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 358.827,
+          "y_px": 258.324,
+          "score": 0.827318,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 286.474,
+          "y_px": 330.84,
+          "score": 0.902375,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 238.152,
+          "y_px": 310.726,
+          "score": 0.849502,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 310.566,
+          "y_px": 314.642,
+          "score": 0.795136,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 310.626,
+          "y_px": 242.114,
+          "score": 0.274107,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 338.797,
+          "y_px": 346.827,
+          "score": 0.814809,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 399.269,
+          "y_px": 395.082,
+          "score": 0.940745,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 371.077,
+          "y_px": 310.561,
+          "score": 0.83087,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 322.63,
+          "y_px": 536.14,
+          "score": 0.745945,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 286.39,
+          "y_px": 540.277,
+          "score": 0.718997,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 415.344,
+          "y_px": 584.422,
+          "score": 0.820984,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 523.957,
+          "y_px": 693.366,
+          "score": 0.869123,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 358.836,
+          "y_px": 532.027,
+          "score": 0.71745,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 427.352,
+          "y_px": 632.786,
+          "score": 0.254089,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 15,
+          "x_px": 338.798,
+          "y_px": 234.213,
+          "score": 0.930579,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 17,
+          "x_px": 270.319,
+          "y_px": 246.227,
+          "score": 0.917946,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 20,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 21,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 22,
+          "x_px": 568.389,
+          "y_px": 657.057,
+          "score": 0.453292,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 568.42,
+          "y_px": 677.118,
+          "score": 0.517123,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 524.113,
+          "y_px": 717.324,
+          "score": 0.815662,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000008",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 145.656,
+          "y_px": 266.388,
+          "score": 0.835499,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 210.066,
+          "y_px": 338.888,
+          "score": 0.866695,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 189.913,
+          "y_px": 358.88,
+          "score": 0.716141,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 161.673,
+          "y_px": 439.56,
+          "score": 0.873317,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 125.469,
+          "y_px": 391.261,
+          "score": 0.892001,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 230.179,
+          "y_px": 318.773,
+          "score": 0.839208,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 117.444,
+          "y_px": 306.47,
+          "score": 0.953621,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 197.918,
+          "y_px": 298.505,
+          "score": 0.161565,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 209.803,
+          "y_px": 536.094,
+          "score": 0.795785,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 181.646,
+          "y_px": 523.999,
+          "score": 0.785338,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 101.154,
+          "y_px": 536.259,
+          "score": 0.810657,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 48.8517,
+          "y_px": 632.928,
+          "score": 0.804524,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 234.168,
+          "y_px": 548.344,
+          "score": 0.760674,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 109.226,
+          "y_px": 552.238,
+          "score": 0.822834,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 105.154,
+          "y_px": 644.979,
+          "score": 0.717356,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 16,
+          "x_px": 165.609,
+          "y_px": 250.121,
+          "score": 0.905157,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 18,
+          "x_px": 222.001,
+          "y_px": 270.387,
+          "score": 0.942864,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 19,
+          "x_px": 40.5294,
+          "y_px": 632.756,
+          "score": 0.385226,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 48.8476,
+          "y_px": 649.028,
+          "score": 0.437469,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 109.284,
+          "y_px": 660.878,
+          "score": 0.674188,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 8.43799,
+          "y_px": 608.673,
+          "score": 0.385434,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 28.6005,
+          "y_px": 600.661,
+          "score": 0.299675,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 48.9425,
+          "y_px": 656.941,
+          "score": 0.615851,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000009",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 326.81,
+          "y_px": 218.012,
+          "score": 0.902563,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 270.277,
+          "y_px": 318.699,
+          "score": 0.895339,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 234.085,
+          "y_px": 302.457,
+          "score": 0.860673,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 326.811,
+          "y_px": 346.841,
+          "score": 0.879346,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 367.057,
+          "y_px": 298.439,
+          "score": 0.815055,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 306.501,
+          "y_px": 338.688,
+          "score": 0.729765,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 387.147,
+          "y_px": 375.083,
+          "score": 0.8704,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 366.869,
+          "y_px": 302.624,
+          "score": 0.743233,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 278.316,
+          "y_px": 564.494,
+          "score": 0.789002,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 238.092,
+          "y_px": 564.485,
+          "score": 0.760103,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 346.847,
+          "y_px": 656.903,
+          "score": 0.892715,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 326.734,
+          "y_px": 737.587,
+          "score": 0.867084,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 318.646,
+          "y_px": 568.389,
+          "score": 0.763799,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 407.395,
+          "y_px": 632.73,
+          "score": 0.896695,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 435.528,
+          "y_px": 785.727,
+          "score": 0.905241,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 302.429,
+          "y_px": 205.926,
+          "score": 0.967888,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 322.603,
+          "y_px": 209.942,
+          "score": 0.161585,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 17,
+          "x_px": 230.124,
+          "y_px": 246.148,
+          "score": 0.902213,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 520.093,
+          "y_px": 801.885,
+          "score": 0.874847,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 516.032,
+          "y_px": 789.95,
+          "score": 0.826537,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 423.382,
+          "y_px": 805.944,
+          "score": 0.849232,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 371.134,
+          "y_px": 793.913,
+          "score": 0.856931,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 342.885,
+          "y_px": 793.961,
+          "score": 0.917594,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 310.709,
+          "y_px": 737.559,
+          "score": 0.78901,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    },
+    {
+      "image_id": "image_000010",
+      "detection_status": "POSE_RETURNED",
+      "candidate_count": 1,
+      "selected_index": 0,
+      "points": [
+        {
+          "native_id": 0,
+          "x_px": 278.422,
+          "y_px": 169.535,
+          "score": 0.871477,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 1,
+          "x_px": 266.244,
+          "y_px": 298.642,
+          "score": 0.931663,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 2,
+          "x_px": 213.979,
+          "y_px": 282.468,
+          "score": 0.849726,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 3,
+          "x_px": 274.427,
+          "y_px": 334.723,
+          "score": 0.934852,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 4,
+          "x_px": 322.753,
+          "y_px": 250.257,
+          "score": 0.818822,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 5,
+          "x_px": 318.604,
+          "y_px": 322.616,
+          "score": 0.731834,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 6,
+          "x_px": 379.075,
+          "y_px": 334.628,
+          "score": 0.931068,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 7,
+          "x_px": 350.793,
+          "y_px": 254.303,
+          "score": 0.796394,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 8,
+          "x_px": 262.259,
+          "y_px": 544.222,
+          "score": 0.609624,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 9,
+          "x_px": 221.999,
+          "y_px": 540.287,
+          "score": 0.619891,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 10,
+          "x_px": 363.0,
+          "y_px": 548.253,
+          "score": 0.866669,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 11,
+          "x_px": 411.357,
+          "y_px": 681.161,
+          "score": 0.806641,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 12,
+          "x_px": 302.518,
+          "y_px": 544.216,
+          "score": 0.502421,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 13,
+          "x_px": 383.146,
+          "y_px": 636.784,
+          "score": 0.55894,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 14,
+          "x_px": 370.889,
+          "y_px": 769.822,
+          "score": 0.756061,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 15,
+          "x_px": 250.123,
+          "y_px": 161.515,
+          "score": 0.868633,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 16,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 17,
+          "x_px": 205.885,
+          "y_px": 218.036,
+          "score": 0.913586,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 18,
+          "x_px": 0.0,
+          "y_px": 0.0,
+          "score": 0.0,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": false
+        },
+        {
+          "native_id": 19,
+          "x_px": 439.455,
+          "y_px": 814.048,
+          "score": 0.766623,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 20,
+          "x_px": 435.489,
+          "y_px": 802.07,
+          "score": 0.681076,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 21,
+          "x_px": 346.909,
+          "y_px": 785.936,
+          "score": 0.647344,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 22,
+          "x_px": 495.81,
+          "y_px": 681.028,
+          "score": 0.712159,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 23,
+          "x_px": 479.704,
+          "y_px": 693.109,
+          "score": 0.745008,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        },
+        {
+          "native_id": 24,
+          "x_px": 415.342,
+          "y_px": 693.357,
+          "score": 0.530662,
+          "score_type": "BODY_25_confidence",
+          "coordinate_available": true
+        }
+      ],
+      "error": null
+    }
+  ],
+  "z_used": false,
+  "coordinate_unit": "decoded input-image pixels",
+  "command": [
+    "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/external/openpose/build/examples/openpose/openpose.bin",
+    "--image_dir",
+    "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/images",
+    "--model_folder",
+    "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/external/openpose/models",
+    "--model_pose",
+    "BODY_25",
+    "--net_resolution",
+    "-1x256",
+    "--keypoint_scale",
+    "0",
+    "--display",
+    "0",
+    "--render_pose",
+    "0",
+    "--write_json",
+    "/Users/rabia/Desktop/STAJ/Human_Pose_Analysis/outputs/image_feature_datasets/final_pilot_v2_release/native/openpose/raw_json"
+  ],
+  "training": false,
+  "manual_coordinate_corrections": false
+}

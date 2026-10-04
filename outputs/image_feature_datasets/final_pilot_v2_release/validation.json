@@ -1,0 +1,68 @@
+{
+  "unit_tests_passed": 9,
+  "final_pilot": {
+    "images": 10,
+    "libraries": 4,
+    "method_csvs": 12,
+    "combined_csvs": 4,
+    "maximum_independent_angle_error_degrees": 1.9895196601282805e-12,
+    "staged_pixels_and_inputs_unchanged": true,
+    "native_coordinates_and_missing_values_preserved": true
+  },
+  "mixed_folder": {
+    "images": 6,
+    "libraries": 4,
+    "method_csvs": 12,
+    "combined_csvs": 4,
+    "maximum_independent_angle_error_degrees": 1.0800249583553523e-12,
+    "staged_pixels_and_inputs_unchanged": true,
+    "native_coordinates_and_missing_values_preserved": true
+  },
+  "mixed_folder_expected_cases": "Unicode paths, nested duplicate basenames, varying dimensions, JPEG EXIF, one blank image, one corrupt image; no annotation file.",
+  "mixed_folder_statuses": {
+    "mediapipe": {
+      "POSE_RETURNED": 4,
+      "INPUT_ERROR": 1,
+      "NO_POSE": 1
+    },
+    "openpose": {
+      "POSE_RETURNED": 4,
+      "INPUT_ERROR": 1,
+      "NO_POSE": 1
+    },
+    "mmpose": {
+      "POSE_RETURNED": 4,
+      "INPUT_ERROR": 1,
+      "NO_POSE": 1
+    },
+    "deepercut": {
+      "POSE_RETURNED": 4,
+      "INPUT_ERROR": 1,
+      "NO_POSE": 1
+    }
+  },
+  "previous_feature_comparison_max_differences": {
+    "mediapipe": {
+      "xy": 0.0,
+      "angles": 0.0,
+      "ratios": 0.0
+    },
+    "openpose": {
+      "xy": 0.0,
+      "angles": 8.526512829121202e-14,
+      "ratios": 4.440892098500626e-16
+    },
+    "mmpose": {
+      "xy": 0.0,
+      "angles": 0.0,
+      "ratios": 0.0
+    },
+    "deepercut": {
+      "xy": 0.0,
+      "angles": 2.842170943040401e-14,
+      "ratios": 2.220446049250313e-16
+    }
+  },
+  "old_source_hash_checks_passed": 198,
+  "notes": "MMPose box dtype matches previous float64 interface. No changed model weights, decision thresholds, reference labels or coordinates. Counts are numerical availability, not recognition accuracy."
+}

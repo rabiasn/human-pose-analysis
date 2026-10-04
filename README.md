@@ -1,174 +1,39 @@
 # Human Pose Analysis
 
-Bu projede farklı human pose estimation yöntemlerini aynı bebek videosu üzerinde çalıştırıp sonuçlarını karşılaştırıyorum.
+Bilgisayar mühendisliği stajımda MediaPipe, OpenPose, MMPose ve DeeperCut ile bebek görüntülerinden vücut noktalarını çıkardım. Aynı görüntülerdeki sonuçları karşılaştırdım ve bu noktalardan sayısal özellikler hesaplayarak CSV dosyalarına kaydettim.
 
-Çalışmanın temel amacı videodan insan vücudundaki eklem noktalarını çıkarmak ve daha sonraki aşamada bu noktaların zaman içerisindeki değişimlerinden hareketleri analiz etmek.
+## Video karşılaştırması
 
-Genel çalışma yapısı:
+`baby_test.mp4` üzerinde MediaPipe, OpenPose ve MMPose'u tam videoda, DeeperCut'ı ilk 10 saniyede çalıştırdım. Dört yöntemin aynı bölümdeki sonuçlarını [karşılaştırma videosunda](outputs/baby_test_10s_comparison.mp4) birleştirdim.
 
-```text
-Video
-  ↓
-Pose Estimation
-  ↓
-Keypoint / Landmark
-  ↓
-Zamansal Değişim
-  ↓
-Hareket Analizi
+## Resimlerden veri seti oluşturma
+
+Test videosundan beş sırtüstü (SUPINE), beş yan yatış (SIDE_LYING) örneği seçtim. Bu pozisyon adları resim seçimi için kullandığım gözlem notlarıdır; model tahmini değildir.
+
+Dört kütüphanede sağ ve sol omuz, dirsek, el bileği, kalça, diz ve ayak bileğini eşledim. Aynı 12 eklem için yalnız x,y kullandım; z değerini almadım.
+
+Her resim için üç şekilde özellik çıkardım:
+
+1. **Koordinatlar:** 24 x,y değeri, piksel cinsinden.
+2. **Açılar:** Kosinüs teoremiyle hesaplanan 12 eklem ve gövde açısı.
+3. **Oranlar:** 21 mesafenin gövde uzunluğuna oranı. Referans olarak omuzların orta noktası ile kalçaların orta noktası arasındaki mesafeyi kullandım.
+
+Her kütüphane için üç ayrı CSV ve bu 57 özelliği bir arada tutan bir birleşik CSV oluşturdum. Her resim bir satırdır. Hazır pose modellerini kullandım; bu resim çalışmasında yeni bir sınıflandırıcı eğitmedim ve noktaları elle düzeltmedim.
+
+## Kod ve örnek sonuçlar
+
+[Ana script](scripts/build_pose_image_dataset_v2.py) verilen resim klasörünü işler. Mevcut model dosyaları ve kütüphane ortamları gerekir; DeeperCut için Docker kullanılır.
+
+```bash
+.venv_mediapipe/bin/python -B scripts/build_pose_image_dataset_v2.py \
+  --input "/resim/klasoru" \
+  --output "/yeni/sonuc/klasoru"
 ```
 
-Testlerde bebek videosu kullandım. İlerleyen aşamada sağa dönme, sola dönme, elini ağzına götürme veya ayağını kaldırma gibi hareketleri keypoint verilerinden çıkarmayı hedefliyorum.
+[10 resimlik sonuçlarda](outputs/image_feature_datasets/final_pilot_v2_release/) `csv/` ayrı yöntem dosyalarını, `combined/` birleşik dosyaları, `previews/` yan yana çizimleri içerir. [Kullanım ayrıntıları](docs/image_feature_dataset_v2.md) ayrı dosyadadır.
 
-## Kullandığım Yöntemler
+## Kontroller
 
-### MediaPipe
+Dokuz otomatik kontrol geçti. Eksik noktaları ve hesaplanamayan değerleri boş bıraktım. Boş ve bozuk resimleri ayrıca denedim. CSV değerlerini ham noktalar ve bağımsız açı/mesafe hesabıyla kontrol ettim.
 
-MediaPipe Pose ile video üzerindeki vücut noktalarını çıkardım.
-
-- 33 landmark kullanıyor
-- Her frame için landmark bilgileri alınıyor
-- Sonuçlar video üzerine çiziliyor
-- Keypoint bilgileri CSV olarak kaydediliyor
-
-Kaynak:  
-https://github.com/google-ai-edge/mediapipe
-
-### OpenPose
-
-OpenPose tarafında BODY_25 modelini kullandım.
-
-- 25 body keypoint
-- Apple Silicon üzerinde CPU_ONLY olarak derlendi
-- Her frame için keypoint sonuçları JSON olarak kaydediliyor
-- Sonuç video üzerine skeleton olarak çiziliyor
-
-Kaynak:  
-https://github.com/CMU-Perceptual-Computing-Lab/openpose
-
-### MMPose
-
-MMPose tarafında 2D pose estimation kullandım.
-
-Kullandığım yapı:
-
-```text
-RTMDet
-  ↓
-Person Detection
-  ↓
-RTMPose-M
-  ↓
-17 COCO Keypoint
-```
-
-Bu çalışmada MMPose için sadece 2D sonuç kullandım.
-
-Kaynak:  
-https://github.com/open-mmlab/mmpose
-
-### DeeperCut
-
-DeeperCut için yazarların yayınladığı `pose-tensorflow` reposunu kullandım.
-
-Hazır COCO multiperson modeli ile frame bazlı pose estimation yaptım.
-
-Genel pipeline:
-
-```text
-CNN
-  ↓
-Joint Detection
-  ↓
-Pairwise Relations
-  ↓
-Graph / Multicut
-  ↓
-Person Pose
-```
-
-Diğer yöntemlere göre daha yavaş çalıştığı için bebek videosunun ilk 10 saniyelik kısmında test ettim.
-
-Kaynak:  
-https://github.com/eldar/pose-tensorflow
-
-## Bebek Videosu Testi
-
-Ana test videosu:
-
-```text
-videos/input/baby_test.mp4
-```
-
-Video yaklaşık 182 saniye ve 30 FPS.
-
-MediaPipe, OpenPose ve MMPose videonun tamamında çalıştırıldı.
-
-DeeperCut ise ilk 10 saniye üzerinde çalıştırıldı.
-
-## Karşılaştırma Videosu
-
-Dört yöntemin aynı 10 saniyelik bölüm üzerindeki sonuçlarını tek videoda birleştirdim.
-
-Yerleşim:
-
-```text
-MediaPipe | OpenPose
-----------|----------
-MMPose    | DeeperCut
-```
-
-Karşılaştırma videosu:
-
-```text
-outputs/baby_test_10s_comparison.mp4
-```
-
-Videoları birleştirmek için kullandığım script:
-
-```text
-scripts/combine_pose_comparison.py
-```
-
-## Güncel Durum
-
-| Yöntem | Durum | Test |
-|---|---|---|
-| MediaPipe | Tamamlandı | Tam video |
-| OpenPose | Tamamlandı | Tam video |
-| MMPose 2D | Tamamlandı | Tam video |
-| DeeperCut | Tamamlandı | İlk 10 saniye |
-
-## Proje Yapısı
-
-```text
-Human_Pose_Analysis/
-│
-├── videos/
-│   └── input/
-│
-├── models/
-│
-├── outputs/
-│   ├── keypoints/
-│   ├── mediapipe_video/
-│   ├── openpose_video/
-│   ├── mmpose_video/
-│   └── deepercut_multicut/
-│
-├── scripts/
-│   ├── mediapipe_video.py
-│   ├── openpose_video.sh
-│   ├── mmpose_video_2d.py
-│   └── combine_pose_comparison.py
-│
-├── external/
-│
-└── README.md
-```
-
-## Sonraki Aşama
-
-Şu an farklı pose estimation yöntemlerinin aynı video üzerindeki sonuçlarını elde etmiş durumdayım.
-
-Sonraki aşamada çıkarılan keypointlerin zaman içerisindeki değişimlerini kullanarak hareket analizi üzerine çalışacağım.
+MediaPipe ve MMPose 120 ortak noktanın tamamında, OpenPose 119'unda, DeeperCut 75'inde sayısal değer verdi. Bu sayılar doğruluk oranı değildir. Örneğin 10. resimde MediaPipe'ın diz noktası yanlış yerde görünüyor; yüksek görünürlük değeri doğru yerleşimi garanti etmiyor. Açı ve oranlar eşit ölçeklemeye dayanıklıdır, farklı kamera açılarında değişebilir.
