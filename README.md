@@ -1,12 +1,12 @@
 # Human Pose Analysis
 
-Bilgisayar mühendisliği stajımda MediaPipe, OpenPose, MMPose ve DeeperCut ile bebek görüntülerinden vücut noktalarını çıkardım. Aynı görüntülerdeki sonuçları karşılaştırdım ve bu noktalardan sayısal özellikler hesaplayarak CSV dosyalarına kaydettim.
+Bu projede staj çalışmam kapsamında MediaPipe, OpenPose, MMPose ve DeeperCut'ın bebek görüntülerinde çıkardığı vücut noktalarını karşılaştırıyorum. Hocamın yönlendirmesiyle aşama aşama ilerliyorum. Önce noktaların nasıl çıkarıldığını ve sonuçların nasıl karşılaştırılacağını çalıştım; ardından bu noktalardan CSV verileri hazırladım.
 
-## Video karşılaştırması
+## 1. İlk video karşılaştırması
 
 `baby_test.mp4` üzerinde MediaPipe, OpenPose ve MMPose'u tam videoda, DeeperCut'ı ilk 10 saniyede çalıştırdım. Dört yöntemin aynı bölümdeki sonuçlarını [karşılaştırma videosunda](outputs/baby_test_10s_comparison.mp4) birleştirdim.
 
-## Resimlerden veri seti oluşturma
+## 2. Resimlerden özellik çıkarma
 
 Test videosundan beş sırtüstü (SUPINE), beş yan yatış (SIDE_LYING) örneği seçtim. Bu pozisyon adları resim seçimi için kullandığım gözlem notlarıdır; model tahmini değildir.
 
@@ -18,22 +18,49 @@ Her resim için üç şekilde özellik çıkardım:
 2. **Açılar:** Kosinüs teoremiyle hesaplanan 12 eklem ve gövde açısı.
 3. **Oranlar:** 21 mesafenin gövde uzunluğuna oranı. Referans olarak omuzların orta noktası ile kalçaların orta noktası arasındaki mesafeyi kullandım.
 
-Her kütüphane için üç ayrı CSV ve bu 57 özelliği bir arada tutan bir birleşik CSV oluşturdum. Her resim bir satırdır. Hazır pose modellerini kullandım; bu resim çalışmasında yeni bir sınıflandırıcı eğitmedim ve noktaları elle düzeltmedim.
+Her kütüphane için üç ayrı CSV ve bu 57 özelliği bir arada tutan bir birleşik CSV oluşturdum. Her resim bir satırdır. Hazır pose modellerini kullandım; bu resim çalışmasında yeni bir sınıflandırıcı eğitmedim ve noktaları elle düzeltmedim. Bulunamayan noktaları ve bunlara bağlı hesaplanamayan değerleri boş bıraktım.
 
-## Kod ve örnek sonuçlar
+[10 resimlik örnek sonuçlar](outputs/image_feature_datasets/final_pilot_v2_release/) ve [özellik çıkarma kodunun kullanım notları](docs/image_feature_dataset_v2.md) depoda bulunuyor.
 
-[Ana script](scripts/build_pose_image_dataset_v2.py) verilen resim klasörünü işler. Mevcut model dosyaları ve kütüphane ortamları gerekir; DeeperCut için Docker kullanılır.
+## 3. Video karşılaştırma arayüzü
+
+Karşılaştırmayı farklı videolarda da yapabilmek için yerel bir arayüz hazırladım. Bir klasördeki videoları listeleyip sırayla işletebiliyorum. Hangi kütüphanelerin çalışacağını ve kaç karede bir örnek alınacağını arayüzden seçiyorum. Örneğin kare aralığını 5 seçtiğimde 0, 5, 10, 15 şeklinde ilerliyor; bu ayar videonun FPS değerini değiştirmiyor.
+
+![Dört kütüphanenin aynı karedeki sonuçlarını gösteren karşılaştırma arayüzü](docs/images/pose-comparison-interface.jpg)
+
+Her kütüphaneye aynı örnek kareyi veriyorum ve sonuçları yan yana gösteriyorum. Varsayılan görünümde MediaPipe'ın 33, OpenPose BODY_25'in 25, MMPose ve DeeperCut'ın COCO düzenindeki 17 noktası kullanılıyor. Önceki resim çalışmasıyla karşılaştırabilmek için ortak 12 eklemi gösteren ayrı bir seçenek de var.
+
+Arayüzde bu karede kaç noktaya koordinat döndüğünü, düşük skorları ve görüntü dışına düşen noktaları inceleyebiliyorum. Video özeti ve toplu sonuçları da görebiliyor, sayımları CSV ve karşılaştırmayı MP4 olarak kaydedebiliyorum. Görüntüleri büyütme, noktaları gizleme ve açık/koyu tema seçeneklerini ekledim.
+
+Buradaki nokta sayısı **doğruluk oranı değil**. Bir noktanın koordinatının dönmesi, anatomik olarak doğru yere konduğunu göstermiyor. Kütüphanelerin skorları da aynı anlama gelmiyor. Bu yüzden sayımların yanında çizimleri de kontrol ediyorum. Bu arayüz şu anda nokta çıkarma sonuçlarını karşılaştırıyor; SUPINE veya SIDE_LYING tahmini üretmiyor.
+
+## Çalıştırma
+
+Arayüzü mevcut macOS çalışma ortamımda şu komutla açıyorum:
 
 ```bash
-.venv_mediapipe/bin/python -B scripts/build_pose_image_dataset_v2.py \
-  --input "/resim/klasoru" \
-  --output "/yeni/sonuc/klasoru"
+.venv_mediapipe/bin/python -B app/pose_comparison_v1/server.py --port 8765
 ```
 
-[10 resimlik sonuçlarda](outputs/image_feature_datasets/final_pilot_v2_release/) `csv/` ayrı yöntem dosyalarını, `combined/` birleşik dosyaları, `previews/` yan yana çizimleri içerir. [Kullanım ayrıntıları](docs/image_feature_dataset_v2.md) ayrı dosyadadır.
+Tarayıcı adresi: `http://127.0.0.1:8765`. Terminalde `Ctrl+C` ile kapatılabilir.
+
+Çalıştırmak için MediaPipe ve MMPose Python ortamları, model ağırlıkları, OpenPose kurulumu ve FFmpeg gerekiyor. DeeperCut için ayrıca Docker'ın çalışması ve yerel `pose-tf14:latest` imajının bulunması gerekiyor; yalnızca Docker'ı açmak yeterli değil. Bu ortamlar, ağırlıklar ve girdi videoları GitHub'a dahil değil, bu yüzden depoyu indirmek tek başına dört kütüphaneyi çalıştırmaya yetmiyor.
+
+Arayüz kodları [app/pose_comparison_v1](app/pose_comparison_v1/) klasöründe, video işleme kodu [pose_video_comparison_v1.py](scripts/pose_video_comparison_v1.py) dosyasında. Arayüzün ürettiği karşılaştırmalar `outputs/library_comparison_app/runs/`, işlem kayıtları ise `outputs/library_comparison_app/` altında yerelde tutuluyor.
 
 ## Kontroller
 
-Dokuz otomatik kontrol geçti. Eksik noktaları ve hesaplanamayan değerleri boş bıraktım. Boş ve bozuk resimleri ayrıca denedim. CSV değerlerini ham noktalar ve bağımsız açı/mesafe hesabıyla kontrol ettim.
+Resim çalışmasında CSV değerlerini ham noktalarla ve ayrı açı/mesafe hesaplarıyla kontrol ettim. MediaPipe ve MMPose 120 ortak noktanın tamamında, OpenPose 119'unda, DeeperCut 75'inde sayısal değer verdi. Bu, 10 resimlik küçük bir denemenin nokta doluluğu; bağımsız test başarısı olarak değerlendirmiyorum. Yüksek görünürlük değeri de noktanın doğru yerleştiğini garanti etmiyor. Açı ve oranlar eşit ölçeklemeye dayanıklı olsa da kamera açısı değiştiğinde değişebilir.
 
-MediaPipe ve MMPose 120 ortak noktanın tamamında, OpenPose 119'unda, DeeperCut 75'inde sayısal değer verdi. Bu sayılar doğruluk oranı değildir. Örneğin 10. resimde MediaPipe'ın diz noktası yanlış yerde görünüyor; yüksek görünürlük değeri doğru yerleşimi garanti etmiyor. Açı ve oranlar eşit ölçeklemeye dayanıklıdır, farklı kamera açılarında değişebilir.
+Video işleme ve yerel sunucu için yazdığım otomatik kontroller; örnekleme, nokta eşleme, sayım, kayıt ve yarıda kalan işlemler gibi yazılım davranışlarını denetliyor. Bunlar modellerin noktaları doğru yere koyduğunu ölçen testler değil.
+
+```bash
+.venv_mediapipe/bin/python -B scripts/test_pose_video_comparison_v1.py
+.venv_mediapipe/bin/python -B scripts/test_pose_comparison_server_v1.py
+```
+
+## Devamında ne yapacağım?
+
+Şu an önceliğim kütüphanelerin nokta çıkarma sonuçlarını karşılaştırmak ve hatalı yerleşimleri incelemek. Sonrasında etiketli verilerden x,y koordinatlarını, açıları ve uzunluk oranlarını CSV olarak çıkaracağım. Video örneklerinde zaman sırasını da koruyacağım.
+
+Bu verileri daha sonra MLP, SVM gibi sınıflandırıcılara vererek pozisyon ve hareket tanımayı deneyeceğim. Eğitim ve test verilerini ayırıp sonuçları confusion matrix ve ROC eğrileriyle değerlendireceğim. Karşılaştırma, özellik çıkarma ve sınıflandırma aşamalarını bu sırayla ele alıyorum; mevcut arayüzde sınıflandırıcı eğitimi yapmıyorum.

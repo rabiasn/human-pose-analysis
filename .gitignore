@@ -40,3 +40,7 @@ outputs/deepercut_single/
 # Yerel Word raporları ve çalışma önbellekleri
 /outputs/reports/
 **/runtime_cache/
+
+# Yerel video karşılaştırma sonuçları ve arayüz kayıtları
+/outputs/library_comparison_app/
+/outputs/pose_video_comparison_v1/

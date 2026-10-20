@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Poz Analizi — Video karşılaştırma</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#comparison-workspace">Karşılaştırmaya geç</a>
+    <!-- Layout references, not copied assets: CVAT's image workspace and frame navigation;
+         FiftyOne's adjacent inspection panels and tabbed measurements; HandBrake's file queue.
+         Official documentation is linked in the references dialog below. -->
+    <div class="application">
+      <header class="app-header">
+        <a class="brand" href="/" aria-label="Poz Analizi ana çalışma alanı">
+          <svg class="brand-symbol" width="25" height="25" viewBox="0 0 25 25" aria-hidden="true"><path d="M8 2.5H2.5V8M17 2.5h5.5V8M2.5 17v5.5H8M22.5 17v5.5H17" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12.5" cy="8" r="2" fill="currentColor"/><path d="m8 14 4.5-3 4.5 3m-4.5-3v7m0-3-4 5m4-5 4 5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+          <span>Poz Analizi</span>
+        </a>
+        <span class="header-divider" aria-hidden="true"></span>
+        <span class="app-section">Video karşılaştırma</span>
+        <div class="header-tools">
+          <button class="theme-button" id="theme-toggle" type="button" aria-label="Koyu temaya geç" aria-pressed="false">Koyu</button>
+        </div>
+      </header>
+
+      <div class="workspace-layout">
+        <aside class="video-sidebar" aria-labelledby="video-heading">
+          <div class="sidebar-title"><h2 id="video-heading">Videolar</h2></div>
+          <div class="file-actions">
+            <label class="field-label" for="folder-input">Video klasörü</label>
+            <div class="folder-field">
+              <input id="folder-input" type="text" placeholder="Klasörün tam yolu" spellcheck="false" autocomplete="off" aria-label="Video klasörünün tam dosya yolu">
+              <button id="scan-button" type="button" class="icon-button" title="Klasördeki videoları tara" aria-label="Klasördeki videoları tara"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M2.5 6V4.5h5l1.7 2h8.3v9h-15Z"/><path d="M2.5 7h15"/></svg></button>
+            </div>
+            <input id="upload-input" type="file" multiple accept="video/*" hidden>
+            <button id="upload-trigger" type="button" class="secondary-button add-video"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12"/></svg>Video ekle</button>
+          </div>
+          <div class="queue-heading"><span>Dosya kuyruğu</span><span id="queue-count">0 video · 0 seçili</span></div>
+          <label class="select-all-row"><input id="select-all-videos" type="checkbox"><span>Bütün videoları seç</span></label>
+          <div id="video-list" class="video-list" aria-label="Video dosyaları">
+            <div class="empty-list"><strong>Henüz video eklenmedi.</strong><p>Klasör yolunu girin veya bilgisayarınızdan dosya seçin.</p></div>
+          </div>
+        </aside>
+
+        <main id="comparison-workspace" class="workbench" tabindex="-1">
+          <div class="workbench-heading">
+            <div class="active-document"><div class="title-line"><h1 id="active-title">Video karşılaştırması</h1><span id="view-label" class="view-label">Hazırlanıyor</span></div><p id="active-subtitle">Aynı kare, dört farklı pose modeli</p></div>
+            <div class="run-actions"><button id="cancel-button" type="button" class="secondary-button" disabled>Durdur</button><button id="run-button" type="button" class="primary-button" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m7 4 9 6-9 6Z"/></svg>Analizi başlat</button></div>
+          </div>
+
+          <div class="comparison-area">
+            <div class="viewer-heading"><span>MODEL GÖRÜNÜMLERİ</span></div>
+            <div id="model-grid" class="model-grid" aria-label="Dört kütüphanenin aynı karedeki sonuçları"></div>
+            <div class="frame-controls" aria-label="Kareler arasında gezinme">
+              <div class="transport-buttons"><button id="previous-frame" class="icon-button" type="button" title="Önceki örnek kare (sol ok)" aria-label="Önceki örnek kare" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4v12m9-12-7 6 7 6Z"/></svg></button><button id="play-button" class="play-button" type="button" aria-label="Örneklenmiş kareleri oynat" disabled>Oynat</button><button id="next-frame" class="icon-button" type="button" title="Sonraki örnek kare (sağ ok)" aria-label="Sonraki örnek kare" disabled><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M14 4v12M5 4l7 6-7 6Z"/></svg></button></div>
+              <div class="timeline"><div class="timeline-labels"><span id="frame-position">Kare —</span><span id="time-position">00:00</span></div><input id="frame-slider" type="range" min="0" max="0" value="0" step="1" aria-label="İncelenecek örnek kare" disabled></div>
+            </div>
+            <p id="source-note" class="source-note">Kayıtlı sonuçlar yükleniyor.</p>
+            <div id="analysis-notices" class="analysis-notices" role="status" aria-live="polite" hidden></div>
+          </div>
+
+          <section class="results-section" aria-label="Ölçüm sonuçları">
+            <div class="results-toolbar"><div class="result-tabs" role="tablist" aria-label="Sonuç görünümü"><button id="frame-tab" class="active" role="tab" type="button" data-tab="frame" aria-selected="true" aria-controls="result-table">Bu kare</button><button id="summary-tab" role="tab" type="button" data-tab="summary" aria-selected="false" aria-controls="result-table">Video özeti</button><button id="batch-tab" role="tab" type="button" data-tab="batch" aria-selected="false" aria-controls="result-table">Toplu sonuç</button><button id="jobs-tab" role="tab" type="button" data-tab="jobs" aria-selected="false" aria-controls="result-table">İşlem geçmişi</button></div><div class="download-actions"><a id="download-csv" class="download-link disabled" href="#" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M10 3v9m-3-3 3 3 3-3M4 13v4h12v-4"/></svg>CSV</a><a id="download-video" class="download-link disabled" href="#" aria-disabled="true"><svg viewBox="0 0 20 20" aria-hidden="true"><rect x="2" y="4" width="11" height="12" rx="1"/><path d="m13 8 5-3v10l-5-3"/></svg>Karşılaştırma videosu</a></div></div>
+            <div class="table-scroll" tabindex="0" aria-label="Sonuç tablosu; geniş tablolar için yatay kaydırılabilir"><table id="result-table"><thead id="table-head"><tr><th scope="col">Kütüphane</th><th scope="col">Kendi noktaları</th><th scope="col">Bulunma oranı</th><th scope="col">Ortak 12</th><th scope="col">Düşük skor</th><th scope="col">Durum</th></tr></thead><tbody id="table-body"><tr><td colspan="6" class="table-empty">Bir video seçildiğinde ölçümler burada gösterilir.</td></tr></tbody></table></div>
+            <p id="measurement-note" class="measurement-note">Nokta sayısı, doğruluk oranı değildir.</p>
+          </section>
+        </main>
+
+        <aside class="settings-sidebar" aria-labelledby="settings-heading">
+          <div class="sidebar-title"><h2 id="settings-heading">Analiz ayarları</h2><button id="refresh-capabilities" type="button" class="icon-button" title="Model hazırlığını yeniden kontrol et" aria-label="Model hazırlığını yeniden kontrol et"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M16 7a6.3 6.3 0 1 0 .1 6M16 3v4h-4"/></svg></button></div>
+          <fieldset class="settings-group"><legend>Kütüphaneler</legend><label class="library-option"><input name="library" type="checkbox" value="mediapipe" checked><span><strong>MediaPipe</strong><small>33 nokta · PoseLandmarker</small></span><span class="library-state">Kontrol ediliyor</span></label><label class="library-option"><input name="library" type="checkbox" value="openpose" checked><span><strong>OpenPose</strong><small>BODY_25</small></span><span class="library-state">Kontrol ediliyor</span></label><label class="library-option"><input name="library" type="checkbox" value="mmpose" checked><span><strong>MMPose</strong><small>COCO 17 · RTMPose</small></span><span class="library-state">Kontrol ediliyor</span></label><label class="library-option"><input name="library" type="checkbox" value="deepercut" checked><span><strong>DeeperCut</strong><small>COCO 17</small></span><span class="library-state">Kontrol ediliyor</span></label></fieldset>
+          <fieldset class="settings-group sampling-settings"><legend>Kare örnekleme</legend><label class="field-label" for="sample-step">Kare aralığı</label><div class="sampling-field"><span>Her</span><input id="sample-step" type="number" value="5" min="1" step="1" inputmode="numeric"><span>karede bir</span></div></fieldset>
+          <fieldset class="settings-group display-settings"><legend>Görünüm</legend><label class="field-label" for="points-mode">Nokta kümesi</label><select id="points-mode"><option value="native" selected>Modelin kendi noktaları</option><option value="common">Ortak 12 eklem (yüz hariç)</option></select><label class="display-option"><input id="show-points" type="checkbox" checked><span>Noktaları göster</span></label></fieldset>
+          <details class="advanced-settings"><summary>Gelişmiş</summary><div class="advanced-settings-body"><p id="sample-preview" class="field-description">Kare aralığı kaynak videonun FPS değeri değildir.</p><div class="limit-field"><label class="field-label" for="sample-limit">En fazla örnek</label><input id="sample-limit" type="number" min="0" value="0" step="1" inputmode="numeric"></div><p class="field-description">0: bütün video.</p><label class="display-option"><input id="show-ids" type="checkbox"><span>Nokta numaralarını göster</span></label><label class="display-option"><input id="show-low-score" type="checkbox" checked><span>Düşük skorları işaretle</span></label><p class="score-legend"><i aria-hidden="true"></i>Kehribar: düşük skor. Skorların anlamı kütüphanelere göre değişir.</p><p class="field-description">Ortak 12: omuz, dirsek, bilek, kalça, diz ve ayak bileği. Görünüm seçenekleri ham koordinatları değiştirmez.</p><button class="quiet-button" id="references-button" type="button">Arayüz kaynakları</button></div></details>
+        </aside>
+      </div>
+
+      <footer class="status-bar"><div id="job-progress" class="job-progress" role="status" aria-live="polite"><span class="idle-dot"></span><span>Çalışmaya hazır</span></div><span class="status-caption">2D noktalar <span aria-hidden="true">/</span> x, y</span></footer>
+    </div>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <dialog id="model-dialog" class="model-dialog" aria-labelledby="model-dialog-title"><div class="dialog-heading"><div><h2 id="model-dialog-title">Nokta inceleme</h2><p id="model-dialog-detail"></p></div><button id="model-dialog-close" type="button" class="icon-button" aria-label="Büyük görüntüyü kapat"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div><div class="inspection-tools"><button id="zoom-out" type="button" class="secondary-button" aria-label="Görüntüyü küçült">−</button><output id="zoom-value" aria-live="polite">100%</output><button id="zoom-in" type="button" class="secondary-button" aria-label="Görüntüyü büyüt">+</button><button id="zoom-reset" type="button" class="secondary-button">Sığdır</button><label class="display-option"><input id="inspect-original" type="checkbox"><span>Orijinal görüntü</span></label><span>Yakınlaştırınca kaydırarak inceleyin · Esc ile kapatın</span></div><div id="inspection-viewport" class="inspection-viewport" tabindex="0" aria-label="Yakınlaştırılmış görüntü; kaydırarak inceleyebilirsiniz"><div id="inspection-stage"><canvas id="inspection-canvas" aria-label="Büyütülmüş nokta çizimi"></canvas></div></div><p id="inspection-warning" class="inspection-warning"></p></dialog>
+    <dialog id="references-dialog" class="references-dialog" aria-labelledby="references-title"><div class="dialog-heading"><h2 id="references-title">Arayüz kaynakları</h2><button id="references-close" type="button" class="icon-button" aria-label="Kaynaklar penceresini kapat"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15"/></svg></button></div><p>Çalışma alanının düzeninde aşağıdaki araçların inceleme ve kuyruk yaklaşımından yararlanıldı. Logo veya görsel varlıkları kullanılmadı.</p><ul><li><a href="https://docs.cvat.ai/docs/annotation/annotation-editor/" target="_blank" rel="noopener noreferrer">CVAT annotation editor</a><span>Merkezde görüntü, yanlarda araçlar ve kareler arasında gezinme.</span></li><li><a href="https://docs.voxel51.com/user_guide/app.html#spaces" target="_blank" rel="noopener noreferrer">FiftyOne App</a><span>Yan yana inceleme panelleri, veri tablosu ve sekmeli sonuç alanı.</span></li><li><a href="https://handbrake.fr/docs/en/latest/advanced/queue.html" target="_blank" rel="noopener noreferrer">HandBrake Queue</a><span>Birden fazla dosyayı seçme, işleme kuyruğu ve işlem durumları.</span></li></ul></dialog>
+  </body>
+</html>
